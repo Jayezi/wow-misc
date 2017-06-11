@@ -1,0 +1,105 @@
+# heroic set bonuses
+
+copy="tos 4pc + nh 2pc"
+legs=eagletalon_legchains,id=138344,ilevel=890
+hands=eagletalon_gauntlets,id=138340,ilevel=890
+
+copy="tos 4pc + traitors oath 2pc"
+wrists=remorseless_chain_armbands,id=137405,ilevel=900
+shoulders=epaulets_of_deceitful_intent,id=134480,ilevel=900
+legs=wildstalker_leggings,id=147143,bonus_id=1497/3562
+hands=vicegrip_of_the_unrepentant,id=147048,bonus_id=1507/3562
+
+# mythic set bonuses
+
+copy="tos 4pc + nh 2pc"
+legs=eagletalon_legchains,id=138344,ilevel=905
+hands=eagletalon_gauntlets,id=138340,ilevel=905
+
+copy="tos 4pc + traitors oath 2pc"
+wrists=remorseless_chain_armbands,id=137405,ilevel=900
+shoulders=epaulets_of_deceitful_intent,id=134480,ilevel=900
+legs=wildstalker_leggings,id=147143,bonus_id=1512/3563
+hands=vicegrip_of_the_unrepentant,id=147048,bonus_id=1522/3563
+
+# heroic weapon traits
+
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=940
+
+copy="+1 ilvl"
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=941
+
+copy="+2 ilvl"
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=942
+
+copy="+3 ilvl"
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=943
+
+copy="+4 ilvl"
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=944
+
+#319
+copy="+1 mfd"
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=940
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:4:316:4:317:4:318:4:319:5:320:4:321:1:322:1:1337:1:1369:1:1521:4:1522:1:1523:1:1524:1:1637:1
+
+#312
+copy="+1 da"
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:5:313:4:314:4:315:4:316:4:317:4:318:4:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:4:1522:1:1523:1:1524:1:1637:1
+
+#1521
+copy="+1 ua"
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:4:316:4:317:4:318:4:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:1:1637:1
+
+#318
+copy="+1 pc"
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:4:316:4:317:4:318:5:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:4:1522:1:1523:1:1524:1:1637:1
+
+#313
+copy="+1 wg"
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:5:314:4:315:4:316:4:317:4:318:4:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:4:1522:1:1523:1:1524:1:1637:1
+
+#314
+copy="+1 qs"
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:5:315:4:316:4:317:4:318:4:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:4:1522:1:1523:1:1524:1:1637:1
+
+# mythic weapon traits
+
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=950
+
+copy="+1 ilvl"
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=951
+
+copy="+2 ilvl"
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=952
+
+copy="+3 ilvl"
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=953
+
+copy="+4 ilvl"
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=954
+
+#319
+copy="+1 mfd"
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=950
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:4:316:4:317:4:318:4:319:5:320:4:321:1:322:1:1337:1:1369:1:1521:4:1522:1:1523:1:1524:1:1637:1
+
+#312
+copy="+1 da"
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:5:313:4:314:4:315:4:316:4:317:4:318:4:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:4:1522:1:1523:1:1524:1:1637:1
+
+#1521
+copy="+1 ua"
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:4:316:4:317:4:318:4:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:1:1637:1
+
+#318
+copy="+1 pc"
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:4:316:4:317:4:318:5:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:4:1522:1:1523:1:1524:1:1637:1
+
+#313
+copy="+1 wg"
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:5:314:4:315:4:316:4:317:4:318:4:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:4:1522:1:1523:1:1524:1:1637:1
+
+#314
+copy="+1 qs"
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:5:315:4:316:4:317:4:318:4:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:4:1522:1:1523:1:1524:1:1637:1
