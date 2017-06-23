@@ -91,6 +91,22 @@ role=attack
 talents=1313113
 spec=marksmanship
 artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:6:315:4:316:4:317:4:318:5:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:4:1522:1:1523:1:1524:5:1637:1
+
+head=,id=138342,bonus_id=3518/42/1507/3336
+neck=,id=137311,enchant_id=5890,bonus_id=3536/1552/3337
+shoulder=,id=138347,enchant_id=5883,bonus_id=3518/1502/1813
+back=,id=138368,enchant_id=5435,bonus_id=3518/1507/3336
+chest=,id=140875,bonus_id=3445/1512/3337
+wrist=,id=140874,bonus_id=3518/1512/3336
+hands=,id=144303,enchant_id=5444,bonus_id=3459/3570
+waist=,id=144406,bonus_id=3445/41/1507/3336
+legs=,id=138344,bonus_id=3518/1502/3528
+feet=,id=147046,bonus_id=3562/1507/3528
+finger1=,id=140895,enchant_id=5429,bonus_id=3518/1502/1813
+finger2=,id=151641,enchant_id=5429,bonus_id=1811/3570,gem_id=130222
+trinket1=,id=141482,bonus_id=3466/1477/3336
+trinket2=,id=140806,bonus_id=3518/1502/3528
+
 main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=932
 
 copy="+1 ilvl"
