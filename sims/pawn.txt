@@ -1,0 +1,1 @@
+( Pawn: v1: "boots ring": Class=Hunter, Spec=Marksmanship, Agility=21.44, CritRating=32.34, HasteRating=29.10, MasteryRating=29.28, Versatility=25.86, Dps=64.85 )
