@@ -48,15 +48,32 @@ copy="boots ring"
 
 head=,id=147142,bonus_id=3562/1497/3528
 neck=,id=142174,enchant_id=5890,bonus_id=3536/41/1547/3337
+shoulder=,id=147144,enchant_id=5883,bonus_id=3562/41/1497/3528
+back=,id=147140,enchant_id=5435,bonus_id=3561/1808/1482/3528,gem_id=130219
+chest=,id=147139,bonus_id=3561/1482/3528
+wrist=,id=140874,bonus_id=3518/1512/3336
+hands=,id=147048,enchant_id=5444,bonus_id=3562/1808/1522/3337,gem_id=130222
+waist=,id=144406,bonus_id=3445/41/1507/3336
+legs=,id=147051,bonus_id=3562/1502/3336
+feet=,id=137033,bonus_id=3459/3570
+finger1=,id=140895,enchant_id=5427,bonus_id=3518/1502/1813
+finger2=,id=151641,enchant_id=5427,bonus_id=1811/3570,gem_id=130219
+trinket1=,id=147017,bonus_id=3562/1497/3528
+trinket2=,id=140806,bonus_id=3518/1502/3528
+main_hand=,id=128826,bonus_id=727,relic_id=3562:1502:3336/3417:1567:3337/3562:1497:3528,gem_id=147112/137412/147107
+
+copy="belt boots"
+head=,id=147142,bonus_id=3562/1497/3528
+neck=,id=142174,enchant_id=5890,bonus_id=3536/41/1547/3337
 shoulder=,id=147144,bonus_id=3562/41/1497/3528
 back=,id=147140,enchant_id=5435,bonus_id=3561/1808/1482/3528,gem_id=130222
 chest=,id=147139,bonus_id=3561/1482/3528
 wrist=,id=140874,bonus_id=3518/1512/3336
 hands=,id=147048,bonus_id=3562/1808/1522/3337,gem_id=130222
-waist=,id=144406,bonus_id=3445/41/1507/3336
+waist=,id=137081,bonus_id=3459/3570
 legs=,id=147051,bonus_id=3562/1502/3336
 feet=,id=137033,bonus_id=3459/3570
-finger1=,id=151641,enchant_id=5429,bonus_id=1811/3570,gem_id=130222
+finger1=,id=140895,enchant_id=5429,bonus_id=3518/1502/1813
 finger2=,id=140897,enchant_id=5429,bonus_id=3517/1492/1813
 trinket1=,id=147017,bonus_id=3562/1497/3528
 trinket2=,id=140806,bonus_id=3518/1502/3528
@@ -73,21 +90,6 @@ role=attack
 talents=1313113
 spec=marksmanship
 artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:5:315:4:316:4:317:4:318:5:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:5:1637:1
-
-head=,id=147142,bonus_id=3562/1497/3528
-neck=,id=142174,enchant_id=5890,bonus_id=3536/41/1547/3337
-shoulder=,id=147144,bonus_id=3562/41/1497/3528
-back=,id=147140,enchant_id=5435,bonus_id=3561/1808/1482/3528,gem_id=130222
-chest=,id=147139,bonus_id=3561/1482/3528
-wrist=,id=140874,bonus_id=3518/1512/3336
-hands=,id=147048,bonus_id=3562/1808/1522/3337,gem_id=130222
-waist=,id=144406,bonus_id=3445/41/1507/3336
-legs=,id=147051,bonus_id=3562/1502/3336
-feet=,id=137033,bonus_id=3459/3570
-finger1=,id=151641,enchant_id=5429,bonus_id=1811/3570,gem_id=130222
-finger2=,id=140897,enchant_id=5429,bonus_id=3517/1492/1813
-trinket1=,id=147017,bonus_id=3562/1497/3528
-trinket2=,id=140806,bonus_id=3518/1502/3528
 
 main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=934
 
