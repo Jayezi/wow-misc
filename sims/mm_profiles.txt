@@ -3,12 +3,12 @@
 hunter="boots ring"
 level=110
 race=troll
-region=us
-server=illidan
 role=attack
 talents=1313113
 spec=marksmanship
 artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:4:316:4:317:4:318:4:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:4:1522:1:1523:1:1524:6:1637:1
+
+main_hand=,id=128826,bonus_id=727,relic_id=3562:1502:3336/3417:1567:3337/3563:1517:3336,gem_id=147112/137412/147104
 
 head=,id=147142,bonus_id=3562/1497/3528
 neck=,id=142174,enchant_id=5890,bonus_id=3536/41/1547/3337
@@ -20,11 +20,10 @@ hands=,id=147048,enchant_id=5444,bonus_id=3562/1808/1522/3337,gem_id=130219
 waist=,id=144406,bonus_id=3445/41/1507/3336
 legs=,id=137518,bonus_id=3536/1582/3337
 feet=,id=137033,bonus_id=3459/3570
-finger1=,id=151641,enchant_id=5427,bonus_id=1811/3570,gem_id=130219
-finger2=,id=140895,enchant_id=5427,bonus_id=3518/1502/1813
+finger1=,id=140895,enchant_id=5427,bonus_id=3518/1502/1813
+finger2=,id=151641,enchant_id=5427,bonus_id=1811/3570,gem_id=130219
 trinket1=,id=147017,bonus_id=3562/1497/3528
 trinket2=,id=140806,bonus_id=3518/1502/3528
-main_hand=,id=128826,bonus_id=727,relic_id=3562:1502:3336/3417:1567:3337/3562:1497:3528,gem_id=147112/137412/147107
 
 copy="boots gloves"
 
@@ -38,11 +37,10 @@ hands=,id=144303,enchant_id=5444,bonus_id=3459/3570
 waist=,id=144406,bonus_id=3445/41/1507/3336
 legs=,id=137518,bonus_id=3536/1582/3337
 feet=,id=137033,bonus_id=3459/3570
-finger1=,id=140897,enchant_id=5427,bonus_id=3517/1492/1813
-finger2=,id=140895,enchant_id=5427,bonus_id=3518/1502/1813
+finger1=,id=140895,enchant_id=5427,bonus_id=3518/1502/1813
+finger2=,id=147020,enchant_id=5427,bonus_id=3562/1497/3528
 trinket1=,id=147017,bonus_id=3562/1497/3528
 trinket2=,id=140806,bonus_id=3518/1502/3528
-main_hand=,id=128826,bonus_id=727,relic_id=3562:1502:3336/3417:1567:3337/3562:1497:3528,gem_id=147112/137412/147107
 
 copy="gloves ring"
 
@@ -60,7 +58,6 @@ finger1=,id=140895,enchant_id=5427,bonus_id=3518/1502/1813
 finger2=,id=151641,enchant_id=5427,bonus_id=1811/3570,gem_id=130219
 trinket1=,id=147017,bonus_id=3562/1497/3528
 trinket2=,id=140806,bonus_id=3518/1502/3528
-main_hand=,id=128826,bonus_id=727,relic_id=3562:1502:3336/3417:1567:3337/3562:1497:3528,gem_id=147112/137412/147107
 
 copy="prydaz boots"
 
@@ -75,10 +72,9 @@ waist=,id=144406,bonus_id=3445/41/1507/3336
 legs=,id=137518,bonus_id=3536/1582/3337
 feet=,id=137033,bonus_id=3459/3570
 finger1=,id=140895,enchant_id=5427,bonus_id=3518/1502/1813
-finger2=,id=140897,enchant_id=5427,bonus_id=3517/1492/1813
+finger2=,id=147020,enchant_id=5427,bonus_id=3562/1497/3528
 trinket1=,id=147017,bonus_id=3562/1497/3528
 trinket2=,id=140806,bonus_id=3518/1502/3528
-main_hand=,id=128826,bonus_id=727,relic_id=3562:1502:3336/3417:1567:3337/3562:1497:3528,gem_id=147112/137412/147107
 
 copy="prydaz ring"
 
@@ -96,7 +92,6 @@ finger1=,id=140895,enchant_id=5427,bonus_id=3518/1502/1813
 finger2=,id=151641,enchant_id=5427,bonus_id=1811/3570,gem_id=130219
 trinket1=,id=147017,bonus_id=3562/1497/3528
 trinket2=,id=140806,bonus_id=3518/1502/3528
-main_hand=,id=128826,bonus_id=727,relic_id=3562:1502:3336/3417:1567:3337/3562:1497:3528,gem_id=147112/137412/147107
 
 copy="prydaz gloves"
 
@@ -111,10 +106,9 @@ waist=,id=144406,bonus_id=3445/41/1507/3336
 legs=,id=137518,bonus_id=3536/1582/3337
 feet=,id=147046,bonus_id=3562/1507/3528
 finger1=,id=140895,enchant_id=5427,bonus_id=3518/1502/1813
-finger2=,id=140897,enchant_id=5427,bonus_id=3517/1492/1813
+finger2=,id=147020,enchant_id=5427,bonus_id=3562/1497/3528
 trinket1=,id=147017,bonus_id=3562/1497/3528
 trinket2=,id=140806,bonus_id=3518/1502/3528
-main_hand=,id=128826,bonus_id=727,relic_id=3562:1502:3336/3417:1567:3337/3562:1497:3528,gem_id=147112/137412/147107
 
 copy="belt boots"
 
@@ -129,10 +123,9 @@ waist=,id=137081,bonus_id=3459/3570
 legs=,id=137518,bonus_id=3536/1582/3337
 feet=,id=137033,bonus_id=3459/3570
 finger1=,id=140895,enchant_id=5427,bonus_id=3518/1502/1813
-finger2=,id=140897,enchant_id=5427,bonus_id=3517/1492/1813
+finger2=,id=147020,enchant_id=5427,bonus_id=3562/1497/3528
 trinket1=,id=147017,bonus_id=3562/1497/3528
 trinket2=,id=140806,bonus_id=3518/1502/3528
-main_hand=,id=128826,bonus_id=727,relic_id=3562:1502:3336/3417:1567:3337/3562:1497:3528,gem_id=147112/137412/147107
 
 copy="prydaz belt"
 
@@ -147,14 +140,13 @@ waist=,id=137081,bonus_id=3459/3570
 legs=,id=137518,bonus_id=3536/1582/3337
 feet=,id=147046,bonus_id=3562/1507/3528
 finger1=,id=140895,enchant_id=5427,bonus_id=3518/1502/1813
-finger2=,id=140897,enchant_id=5427,bonus_id=3517/1492/1813
+finger2=,id=147020,enchant_id=5427,bonus_id=3562/1497/3528
 trinket1=,id=147017,bonus_id=3562/1497/3528
 trinket2=,id=140806,bonus_id=3518/1502/3528
-main_hand=,id=128826,bonus_id=727,relic_id=3562:1502:3336/3417:1567:3337/3562:1497:3528,gem_id=147112/137412/147107
 
 # weapon traits
 
-hunter="938 ua pc cs"
+hunter="944 ua pc pc"
 level=110
 race=troll
 region=us
@@ -162,50 +154,50 @@ server=illidan
 role=attack
 talents=1313113
 spec=marksmanship
-artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:5:316:4:317:4:318:5:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:6:1637:1
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:4:316:4:317:4:318:6:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:6:1637:1
 
-main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=938
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=944
 
 copy="+1 ilvl"
-main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=939
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=945
 
 copy="+2 ilvl"
-main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=940
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=946
 
 copy="+3 ilvl"
-main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=941
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=947
 
 copy="+4 ilvl"
-main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=942
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=948
 
 copy="+5 ilvl"
-main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=943
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=949
 
 #319
 copy="+1 mfd"
-main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=938
-artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:5:316:4:317:4:318:5:319:5:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:6:1637:1
+main_hand=thasdorah_legacy_of_the_windrunners,id=128826,ilevel=944
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:4:316:4:317:4:318:6:319:5:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:6:1637:1
 
 #312
 copy="+1 da"
-artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:5:313:4:314:4:315:5:316:4:317:4:318:5:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:6:1637:1
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:5:313:4:314:4:315:4:316:4:317:4:318:6:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:6:1637:1
 
 #1521
 copy="+1 ua"
-artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:5:316:4:317:4:318:5:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:6:1522:1:1523:1:1524:6:1637:1
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:4:316:4:317:4:318:6:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:6:1522:1:1523:1:1524:6:1637:1
 
 #318
 copy="+1 pc"
-artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:5:316:4:317:4:318:6:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:6:1637:1
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:4:316:4:317:4:318:7:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:6:1637:1
 
 #313
 copy="+1 wg"
-artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:5:314:4:315:5:316:4:317:4:318:5:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:6:1637:1
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:5:314:4:315:4:316:4:317:4:318:6:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:6:1637:1
 
 #314
 copy="+1 qs"
-artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:5:315:5:316:4:317:4:318:5:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:6:1637:1
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:5:315:4:316:4:317:4:318:6:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:6:1637:1
 
 #315
 copy="+1 cs"
-artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:6:316:4:317:4:318:5:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:6:1637:1
+artifact=55:0:0:0:0:307:1:308:1:309:1:310:1:311:1:312:4:313:4:314:4:315:5:316:4:317:4:318:6:319:4:320:4:321:1:322:1:1337:1:1369:1:1521:5:1522:1:1523:1:1524:6:1637:1
