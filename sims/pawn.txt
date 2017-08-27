@@ -1,1 +1,1 @@
-( Pawn: v1: "boots ring": Class=Hunter, Spec=Marksmanship, Agility=21.44, CritRating=32.34, HasteRating=29.10, MasteryRating=29.28, Versatility=25.86, Dps=64.85 )
+( Pawn: v1: "MM": Class=Hunter, Spec=Marksmanship, Agility=22.54, CritRating=34.24, HasteRating=35.47, MasteryRating=33.21, Versatility=27.80 )
