@@ -1,1 +1,0 @@
-( Pawn: v1: "MM": Class=Hunter, Spec=Marksmanship, Agility=22.54, CritRating=34.24, HasteRating=35.47, MasteryRating=33.21, Versatility=27.80 )
