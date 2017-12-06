@@ -21,10 +21,10 @@ legs=,id=152134,bonus_id=3611/1487/3528
 feet=,id=137033,bonus_id=1811/3630
 finger1=,id=151641,enchant_id=5429,bonus_id=3459/3630,gem_id=151584
 finger2=,id=134487,enchant_id=5429,bonus_id=3418/1587/3337
-trinket1=,id=140806,bonus_id=3573/1512/3336
+trinket1=,id=141482,bonus_id=3466/1477/3336
 trinket2=,id=147017,bonus_id=3563/1512/3528
 main_hand=,id=128826,bonus_id=727,relic_id=3563:1527:3337/3563:1522:3528/3536:1627:3337,gem_id=147112/147082/136973
 
 # stat weights
 
-( Pawn: v1: "MM": Class=Hunter, Spec=Marksmanship, Agility=26.26, CritRating=47.55, HasteRating=48.69, MasteryRating=48.39, Versatility=43.37 )
+( Pawn: v1: "MM": Class=Hunter, Spec=Marksmanship, Agility=26.17, CritRating=43.29, HasteRating=34.47, MasteryRating=45.21, Versatility=39.61 )
