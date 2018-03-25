@@ -36,3 +36,4 @@ bloodlust_time=40
 
 actions.cooldowns+=/trueshot,if=(raid_event.vulnerable.in>cooldown.trueshot.duration_guess|debuff.vulnerable.up|target.time_to_die<raid_event.vulnerable.in)&(time=0|buff.bloodlust.up|(target.time_to_die>(cooldown.trueshot.duration_guess+duration))|buff.bullseye.react=30|target.time_to_die<16)
 actions+=/use_item,name=tarnished_sentinel_medallion,if=(raid_event.vulnerable.in>cooldown.trueshot.duration_guess|debuff.vulnerable.up|target.time_to_die<raid_event.vulnerable.in)&(((cooldown.trueshot.remains_guess<6|cooldown.trueshot.remains_guess>45)&(target.time_to_die>cooldown+duration))|target.time_to_die<25|buff.bullseye.react=30)
+actions.patient_sniper+=/a_murder_of_crows,if=(raid_event.vulnerable.in+5>cooldown|debuff.vulnerable.up|target.time_to_die<raid_event.vulnerable.in)&(!variable.pooling_for_piercing|lowest_vuln_within.5>gcd.max)&(target.time_to_die>=cooldown+duration|target.health.pct<20|target.time_to_die<16)&variable.vuln_aim_casts=0
