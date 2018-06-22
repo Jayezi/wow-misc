@@ -12,7 +12,7 @@ actions+=/use_items
 actions+=/berserking,if=buff.coordinated_assault.up
 actions+=/blood_fury,if=buff.coordinated_assault.up
 actions+=/potion,if=buff.coordinated_assault.up&(buff.berserking.up|buff.blood_fury.up|!race.troll&!race.orc)
-actions+=/variable,name=can_gcd,value=!talent.mongoose_bite.enabled|buff.mongoose_fury.down|(buff.mongoose_fury.remains-(((buff.mongoose_fury.remains*focus.regen+focus)%action.mongoose_bite.cost)*gcd.max)>gcd.max)|full_recharge_time<gcd
+actions+=/variable,name=can_gcd,value=!talent.mongoose_bite.enabled|buff.mongoose_fury.down|(buff.mongoose_fury.remains-(((buff.mongoose_fury.remains*focus.regen+focus)%action.mongoose_bite.cost)*gcd.max)>gcd.max)
 actions+=/steel_trap
 actions+=/a_murder_of_crows
 actions+=/coordinated_assault
