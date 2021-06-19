@@ -1,13 +1,13 @@
 #ifWinActive World of Warcraft
 
-$r::
+$e::
 Loop
 {
-Send, r
+Send, e
 While GetKeyState("Scrolllock", "T")
 {
-Send, r
-Sleep, 333 ; 
+ControlSend,, e, World of Warcraft
+Sleep, 31000 ;
 }
 return
 }

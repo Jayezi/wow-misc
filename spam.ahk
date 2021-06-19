@@ -13,6 +13,19 @@ return
 }
 return
 
+$v::
+Loop
+{
+Send, v
+While GetKeyState("v","P") and GetKeyState("Scrolllock", "T")
+{
+Send, v
+Sleep, 50 ; 
+}
+return
+}
+return
+
 $c::
 Loop
 {
