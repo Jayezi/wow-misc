@@ -1,0 +1,381 @@
+############ trinkets ############
+
+# passive ------------
+# trinket2=stone_legion_heraldry,id=184027,bonus_id=7187/1498
+
+# 1 min --------------
+# trinket2=sinful_gladiators_badge_of_ferocity,id=175921,bonus_id=6623:1498:6646
+
+# 1.5 min ------------
+# trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
+# trinket2=overcharged_anima_battery,id=180116,bonus_id=6536/1540/6646
+
+# 2 min --------------
+# trinket2=memory_of_past_sins,id=184025,bonus_id=7187/1498
+# trinket2=wakeners_frond,id=181457,ilevel=203
+
+# 3 min --------------
+# trinket2=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
+
+copy=heraldry_badge
+trinket1=stone_legion_heraldry,id=184027,bonus_id=7187/1498
+trinket2=sinful_gladiators_badge_of_ferocity,id=175921,bonus_id=6623:1498:6646
+
+copy=heraldry_dreadfire
+trinket1=stone_legion_heraldry,id=184027,bonus_id=7187/1498
+trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
+
+copy=heraldry_battery
+trinket1=stone_legion_heraldry,id=184027,bonus_id=7187/1498
+trinket2=overcharged_anima_battery,id=180116,bonus_id=6536/1540/6646
+
+copy=heraldry_sins
+trinket1=stone_legion_heraldry,id=184027,bonus_id=7187/1498
+trinket2=memory_of_past_sins,id=184025,bonus_id=7187/1498
+
+copy=heraldry_frond
+trinket1=stone_legion_heraldry,id=184027,bonus_id=7187/1498
+trinket2=wakeners_frond,id=181457,ilevel=203
+
+copy=heraldry_iqd
+trinket1=stone_legion_heraldry,id=184027,bonus_id=7187/1498
+trinket2=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
+
+
+copy=iqd_badge
+trinket1=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
+trinket2=sinful_gladiators_badge_of_ferocity,id=175921,bonus_id=6623:1498:6646
+
+copy=iqd_dreadfire
+trinket1=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
+trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
+
+copy=iqd_battery
+trinket1=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
+trinket2=overcharged_anima_battery,id=180116,bonus_id=6536/1540/6646
+
+copy=iqd_sins
+trinket1=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
+trinket2=memory_of_past_sins,id=184025,bonus_id=7187/1498
+
+copy=iqd_frond
+trinket1=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
+trinket2=wakeners_frond,id=181457,ilevel=203
+
+
+copy=frond_badge
+trinket1=wakeners_frond,id=181457,ilevel=203
+trinket2=sinful_gladiators_badge_of_ferocity,id=175921,bonus_id=6623:1498:6646
+
+copy=frond_dreadfire
+trinket1=wakeners_frond,id=181457,ilevel=203
+trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
+
+copy=frond_battery
+trinket1=wakeners_frond,id=181457,ilevel=203
+trinket2=overcharged_anima_battery,id=180116,bonus_id=6536/1540/6646
+
+copy=frond_sins
+trinket1=wakeners_frond,id=181457,ilevel=203
+trinket2=memory_of_past_sins,id=184025,bonus_id=7187/1498
+
+
+copy=sins_badge
+trinket1=memory_of_past_sins,id=184025,bonus_id=7187/1498
+trinket2=sinful_gladiators_badge_of_ferocity,id=175921,bonus_id=6623:1498:6646
+
+copy=sins_dreadfire
+trinket1=memory_of_past_sins,id=184025,bonus_id=7187/1498
+trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
+
+copy=sins_battery
+trinket1=memory_of_past_sins,id=184025,bonus_id=7187/1498
+trinket2=overcharged_anima_battery,id=180116,bonus_id=6536/1540/6646
+
+
+copy=battery_badge
+trinket1=overcharged_anima_battery,id=180116,bonus_id=6536/1540/6646
+trinket2=sinful_gladiators_badge_of_ferocity,id=175921,bonus_id=6623:1498:6646
+
+copy=battery_dreadfire
+trinket1=overcharged_anima_battery,id=180116,bonus_id=6536/1540/6646
+trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
+
+
+copy=dreadfire_badge
+trinket1=dreadfire_vessel,id=184030,bonus_id=7187/1498
+trinket2=sinful_gladiators_badge_of_ferocity,id=175921,bonus_id=6623:1498:6646
+
+############ legendaries ############
+
+# mm
+
+copy=surging_shots
+shirt=brawlers_harness,id=6125,bonus_id=7012
+
+copy=eagletalons
+shirt=brawlers_harness,id=6125,bonus_id=7011
+
+copy=soulforge
+shirt=brawlers_harness,id=6125,bonus_id=7005
+
+copy=call_of_the_wild
+shirt=brawlers_harness,id=6125,bonus_id=7003
+
+copy=serpentstalkers
+shirt=brawlers_harness,id=6125,bonus_id=7013
+
+copy=secrets
+shirt=brawlers_harness,id=6125,bonus_id=7014
+
+copy=nessingwarys
+shirt=brawlers_harness,id=6125,bonus_id=7004
+
+# bm
+
+copy=soulforge
+shirt=brawlers_harness,id=6125,bonus_id=7005
+
+copy=call_of_the_wild
+shirt=brawlers_harness,id=6125,bonus_id=7003
+
+copy=qapla
+shirt=brawlers_harness,id=6125,bonus_id=7009
+
+copy=dire_command
+shirt=brawlers_harness,id=6125,bonus_id=7007
+
+copy=rylakstalkers
+shirt=brawlers_harness,id=6125,bonus_id=7010
+
+copy=flamewakers
+shirt=brawlers_harness,id=6125,bonus_id=7008
+
+copy=nessingwarys
+shirt=brawlers_harness,id=6125,bonus_id=7004
+
+# sv
+
+copy=soulforge
+shirt=brawlers_harness,id=6125,bonus_id=7005
+
+copy=call_of_the_wild
+shirt=brawlers_harness,id=6125,bonus_id=7003
+
+copy=wildfire
+shirt=brawlers_harness,id=6125,bonus_id=7015
+
+copy=rylakstalkers
+shirt=brawlers_harness,id=6125,bonus_id=7016
+
+copy=latent_poison
+shirt=brawlers_harness,id=6125,bonus_id=7017
+
+copy=butchers
+shirt=brawlers_harness,id=6125,bonus_id=7018
+
+copy=nessingwarys
+shirt=brawlers_harness,id=6125,bonus_id=7004
+
+############ presets ##############
+
+covenant=kyrian
+soulbind=pelagos,combat_meditation/enfeebled_mark:7/sharpshooters_focus:7
+
+covenant=night_fae
+soulbind=niya,grove_invigoration/spirit_attunement:7/niyas_tools_burrs
+
+covenant=necrolord
+soulbind=lead_by_example/necrotic_barrage:7
+
+covenant=venthyr
+soulbind=thrill_seeker/empowered_release:7
+
+############ covenants ############
+
+copy=resonating_arrow
+covenant=kyrian
+
+copy=death_chakram
+covenant=necrolord
+
+copy=flayed_shot
+covenant=venthyr
+
+copy=wild_spirits
+covenant=night_fae
+
+############ conduits ############
+
+# bm
+
+copy=bloodletting
+soulbind=bloodletting:1
+
+copy=echoing_call
+soulbind=echoing_call:1
+
+copy=ferocious_appetite
+soulbind=ferocious_appetite:1
+
+copy=one_with_the_beast
+soulbind=one_with_the_beast:1
+
+# mm
+
+copy=brutal_projectiles
+soulbind=brutal_projectiles:1
+
+copy=deadly_chain
+soulbind=deadly_chain:1
+
+copy=powerful_precision
+soulbind=powerful_precision:1
+
+copy=sharpshooters_focus
+soulbind=sharpshooters_focus:1
+
+# sv
+
+copy=deadly_tandem
+soulbind=deadly_tandem:1
+
+copy=flame_infusion
+soulbind=flame_infusion:1
+
+copy=stinging_strike
+soulbind=stinging_strike:1
+
+copy=strength_of_the_pack
+soulbind=strength_of_the_pack:1
+
+# kyrian
+copy=enfeebled_mark
+soulbind=enfeebled_mark:1
+
+# necrolord
+copy=necrotic_barrage
+soulbind=necrotic_barrage:1
+
+# night fae
+copy=spirit_attunement
+soulbind=spirit_attunement:1
+
+# venthyr
+copy=empowered_release
+soulbind=empowered_release:1
+
+############ soulbinds ############
+
+copy=kyrian
+covenant=kyrian
+soulbind=
+
+# pelagos
+copy=let_go_of_the_past
+soulbind=let_go_of_the_past
+
+copy=combat_meditation
+soulbind=combat_meditation
+
+# kleia
+copy=pointed_courage
+soulbind=pointed_courage
+
+# mikanikos
+copy=hammer_of_genesis
+soulbind=hammer_of_genesis
+
+copy=brons_call_to_action
+soulbind=brons_call_to_action
+
+
+copy=necrolord
+covenant=necrolord
+soulbind=
+
+# marileth
+copy=plagueys_preemptive_strike
+soulbind=plagueys_preemptive_strike
+
+# emeni
+copy=gnashing_chompers
+soulbind=gnashing_chompers
+
+copy=lead_by_example
+soulbind=lead_by_example
+
+# heirmir
+copy=serrated_spaulders
+soulbind=serrated_spaulders
+
+copy=heirmirs_arsenal_marrowed_gemstone
+soulbind=heirmirs_arsenal_marrowed_gemstone
+
+
+copy=night_fae
+covenant=night_fae
+soulbind=
+
+# niya
+copy=niyas_tools_herbs
+covenant=night_fae
+soulbind=niyas_tools_herbs
+
+copy=niyas_tools_poison
+soulbind=niyas_tools_poison
+
+copy=niyas_tools_burrs
+soulbind=niyas_tools_burrs
+
+copy=grove_invigoration
+soulbind=grove_invigoration
+
+# dreamweaver
+copy=field_of_blossoms
+soulbind=field_of_blossoms
+
+copy=social_butterfly
+soulbind=social_butterfly
+
+# korayn
+copy=first_strike
+soulbind=first_strike
+
+copy=wild_hunt_tactics
+soulbind=wild_hunt_tactics
+
+
+copy=venthyr
+covenant=venthyr
+soulbind=
+
+# nadjia
+copy=dauntless_duelist
+soulbind=dauntless_duelist
+
+copy=exacting_preparation
+soulbind=exacting_preparation
+
+copy=thrill_seeker
+soulbind=thrill_seeker
+
+# theotar
+copy=soothing_shade
+soulbind=soothing_shade
+
+copy=refined_palate
+soulbind=refined_palate
+
+copy=wasteland_propriety
+soulbind=wasteland_propriety
+
+# draven
+copy=superior_tactics
+soulbind=superior_tactics
+
+copy=built_for_war
+soulbind=built_for_war
+
+copy=service_in_stone
+soulbind=service_in_stone

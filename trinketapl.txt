@@ -1,0 +1,83 @@
+use this trinket if:
+it is a buff trinket or we are kyrian and it is a buff or on-use trinket and
+	we're in a major spec cooldown and covenant cooldown combo and
+		we are not kyrian and there is no other buff trinket
+		or we are kyrian and there is no other buff or on-use trinket
+		or the other trinket is on cooldown
+		or this trinket is stronger (has a buff and is against a non-buff or shorter cooldown buff, or has a use and is against a shorter on-use)
+	or we're not in a major spec cooldown and covenant cooldown combo and
+		there is no other buff trinket and
+			this total cooldown is less than the next sync
+			or the next sync is over half this trinkets total cooldown
+		or there is another buff trinket and
+			this trinket is stronger (has a buff and is against a shorter cooldown buff) and
+				this total cooldown is less than the next sync
+				or the next sync is over half this trinkets total cooldown
+			or the other trinket is stronger (this does not have a buff or is against a longer cooldown) and
+				the other trinket is ready and 
+					the other trinket total cooldown is longer than the next sync and
+						the next sync is less than half the other trinket total cooldown
+				or the other trinket is not ready and
+					the other trinket remaining cooldown is shorter than the next strong sync and 
+						the next strong sync is over 20 seconds away and
+							this trinket total cooldown is less than the next sync
+							or the other trinket remaining cooldown is shorter than the next sync and the next sync sync + its total cooldown is less than the next strong sync
+							or the next sync is over half this trinket total cooldown
+							or we are in a cooldown
+					or the other trinket remaining cooldown is longer than the next strong sync and
+						this trinket total cooldown is less than the next strong sync
+						or this trinket is not a buff trinket and 
+							the next sync is over half its total cooldown
+							or we are in a cooldown
+	or the fight will end before the next sync
+or we are not kyrian and it has no buff effect and
+	the other is a buff trinket and
+		we're not in any cooldown or the other trinket isn't available and
+			the next sync is over 20 seconds away or the other trinket won't be usable by the next sync
+	or the other is not a buff trinket and 
+		the other trinket is not a on-use trinket
+		or the other trinket is on cooldown
+		or this trinket has a shorter cooldown
+
+
+actions.trinkets+=/use_items,slots=trinket1,if=
+(trinket.1.has_use_buff|covenant.kyrian&trinket.1.has_cooldown)&(
+	variable.strong_sync_up&(
+		!covenant.kyrian&!trinket.2.has_use_buff
+		|covenant.kyrian&!trinket.2.has_cooldown
+		|trinket.2.cooldown.remains
+		|trinket.1.has_use_buff&(!trinket.2.has_use_buff|trinket.1.cooldown.duration>=trinket.2.cooldown.duration)
+		|trinket.1.has_cooldown&!trinket.2.has_use_buff&trinket.1.cooldown.duration>=trinket.2.cooldown.duration)
+	|!variable.strong_sync_up&(
+		!trinket.2.has_use_buff&(
+			trinket.1.cooldown.duration-5<variable.sync_remains
+			|variable.sync_remains>trinket.1.cooldown.duration%2)
+		|trinket.2.has_use_buff&(
+			trinket.1.has_use_buff&trinket.1.cooldown.duration>=trinket.2.cooldown.duration&(
+				trinket.1.cooldown.duration-5<variable.sync_remains
+				|variable.sync_remains>trinket.1.cooldown.duration%2)
+			|(!trinket.1.has_use_buff|trinket.2.cooldown.duration>=trinket.1.cooldown.duration)&(
+				trinket.2.cooldown.ready&
+					trinket.2.cooldown.duration-5>variable.sync_remains&
+						variable.sync_remains<trinket.2.cooldown.duration%2
+				|!trinket.2.cooldown.ready&(
+					trinket.2.cooldown.remains-5<variable.strong_sync_remains&
+						variable.strong_sync_remains>20&(
+							trinket.1.cooldown.duration-5<variable.sync_remains
+							|trinket.2.cooldown.remains-5<variable.sync_remains&trinket.2.cooldown.duration-5+variable.sync_remains<variable.strong_sync_remains
+							|variable.sync_remains>trinket.1.cooldown.duration%2
+							|variable.sync_up)
+					|trinket.2.cooldown.remains-5>variable.strong_sync_remains&(
+						trinket.1.cooldown.duration-5<variable.strong_sync_remains
+						|!trinket.1.has_use_buff&(
+							variable.sync_remains>trinket.1.cooldown.duration%2
+							|variable.sync_up))))))
+	|target.time_to_die<variable.sync_remains)
+|!trinket.1.has_use_buff&!covenant.kyrian&(
+	trinket.2.has_use_buff&(
+		(!variable.sync_up|trinket.2.cooldown.remains>5)&(
+			variable.sync_remains>20|trinket.2.cooldown.remains-5>variable.sync_remains))
+	|!trinket.2.has_use_buff&(
+		!trinket.2.has_cooldown
+		|trinket.2.cooldown.remains
+		|trinket.2.cooldown.duration>=trinket.1.cooldown.duration))
