@@ -1,110 +1,65 @@
-############ trinkets ############
+############## gear ##############
 
-# passive ------------
-# trinket2=stone_legion_heraldry,id=184027,bonus_id=7187/1498
+# raid
 
-# 1 min --------------
-# trinket2=sinful_gladiators_badge_of_ferocity,id=175921,bonus_id=6623:1498:6646
+# Normal	226	233
+# Heroic	239	246
+# Mythic	252	259
+# Legendary	249 262
 
-# 1.5 min ------------
-# trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
-# trinket2=overcharged_anima_battery,id=180116,bonus_id=6536/1540/6646
+# legs=bonded_soulsmelt_greaves,id=186367,ilevel=252
+# waist=cord_of_coerced_spirits,id=186364,ilevel=252
+# neck=periapt_of_pristine_preservation,id=186291,ilevel=252
+# neck=weathered_talisman_of_the_shadowmoon,id=186378,ilevel=252
+# finger1=sworn_oath_of_the_nine,id=186290,ilevel=252
+# finger1=oscillating_ouroboros,id=186376,ilevel=252
+# finger1=miniature_breaking_wheel,id=186375,ilevel=252
+# back=cloak_of_scarred_honor,id=186289,ilevel=252
+# back=self_replicating_tissue,id=186374,ilevel=252
+# head=shadowsteel_facecage,id=186341,ilevel=252
+# head=crest_of_the_fallen,id=186304,ilevel=252
+# shoulder=pauldrons_of_tyrannical_defiance,id=186305,ilevel=252
+# chest=conjunction_forged_chainmail,id=186340,ilevel=252
+# chest=colossus_slayers_hauberk,id=186303,ilevel=252
+# waist=coiled_stygian_grapnel,id=186301,ilevel=252
+# wrists=mistwrap_manacles,id=186302,ilevel=252
+# wrists=brynjas_mournful_wristwraps,id=186339,ilevel=252
+# hands=demigaunts_of_predestination,id=186345,ilevel=252
+# hands=grasps_of_ancestral_whispers,id=186308,ilevel=252
+# legs=hyperdense_greaves,id=186344,ilevel=252
+# legs=aradnes_lancer_legguards,id=186307,ilevel=252
+# feet=ragebound_leg_irons,id=186343,ilevel=252
+# feet=greaves_of_extermination,id=186306,ilevel=252
+# trinket1=titanic_ocular_gland,id=186423,ilevel=252
+# trinket1=salvaged_fusion_amplifier,id=186432,ilevel=252
+# trinket1=tormented_rack_fragment,id=186430,ilevel=252
+# trinket1=decanter_of_endless_howling,id=186429,ilevel=252
+# main_hand=jotungeirr__destinys_call,id=186404,ilevel=252
+# main_hand=soulrent_outriders_recurve,id=186411,ilevel=252
+# main_hand=directional_meltdown_projector,id=186413,ilevel=252
+# main_hand=pylon_of_the_great_purge,id=186409,ilevel=252
 
-# 2 min --------------
-# trinket2=memory_of_past_sins,id=184025,bonus_id=7187/1498
-# trinket2=wakeners_frond,id=181457,ilevel=203
+# trinket1=relic_of_the_frozen_wastes,id=186437,ilevel=259
+# main_hand=raeshalare__deaths_whisper,id=186414,ilevel=259
+# neck=interplanar_keystone,id=186379,ilevel=259
+# finger1=tarnished_insignia_of_quelthalas,id=186377,ilevel=259
+# back=dark_rangers_quiver,id=186439,ilevel=259
+# shoulder=epaulettes_of_the_master_ranger,id=186342,ilevel=259
+# waist=ceremonial_construct_clasp,id=186338,ilevel=259
+# wrists=bands_of_the_fallen_house,id=186365,ilevel=259
 
-# 3 min --------------
-# trinket2=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
+# dungeon
 
-copy=heraldry_badge
-trinket1=stone_legion_heraldry,id=184027,bonus_id=7187/1498
-trinket2=sinful_gladiators_badge_of_ferocity,id=175921,bonus_id=6623:1498:6646
-
-copy=heraldry_dreadfire
-trinket1=stone_legion_heraldry,id=184027,bonus_id=7187/1498
-trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
-
-copy=heraldry_battery
-trinket1=stone_legion_heraldry,id=184027,bonus_id=7187/1498
-trinket2=overcharged_anima_battery,id=180116,bonus_id=6536/1540/6646
-
-copy=heraldry_sins
-trinket1=stone_legion_heraldry,id=184027,bonus_id=7187/1498
-trinket2=memory_of_past_sins,id=184025,bonus_id=7187/1498
-
-copy=heraldry_frond
-trinket1=stone_legion_heraldry,id=184027,bonus_id=7187/1498
-trinket2=wakeners_frond,id=181457,ilevel=203
-
-copy=heraldry_iqd
-trinket1=stone_legion_heraldry,id=184027,bonus_id=7187/1498
-trinket2=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
-
-
-copy=iqd_badge
-trinket1=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
-trinket2=sinful_gladiators_badge_of_ferocity,id=175921,bonus_id=6623:1498:6646
-
-copy=iqd_dreadfire
-trinket1=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
-trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
-
-copy=iqd_battery
-trinket1=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
-trinket2=overcharged_anima_battery,id=180116,bonus_id=6536/1540/6646
-
-copy=iqd_sins
-trinket1=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
-trinket2=memory_of_past_sins,id=184025,bonus_id=7187/1498
-
-copy=iqd_frond
-trinket1=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
-trinket2=wakeners_frond,id=181457,ilevel=203
-
-
-copy=frond_badge
-trinket1=wakeners_frond,id=181457,ilevel=203
-trinket2=sinful_gladiators_badge_of_ferocity,id=175921,bonus_id=6623:1498:6646
-
-copy=frond_dreadfire
-trinket1=wakeners_frond,id=181457,ilevel=203
-trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
-
-copy=frond_battery
-trinket1=wakeners_frond,id=181457,ilevel=203
-trinket2=overcharged_anima_battery,id=180116,bonus_id=6536/1540/6646
-
-copy=frond_sins
-trinket1=wakeners_frond,id=181457,ilevel=203
-trinket2=memory_of_past_sins,id=184025,bonus_id=7187/1498
-
-
-copy=sins_badge
-trinket1=memory_of_past_sins,id=184025,bonus_id=7187/1498
-trinket2=sinful_gladiators_badge_of_ferocity,id=175921,bonus_id=6623:1498:6646
-
-copy=sins_dreadfire
-trinket1=memory_of_past_sins,id=184025,bonus_id=7187/1498
-trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
-
-copy=sins_battery
-trinket1=memory_of_past_sins,id=184025,bonus_id=7187/1498
-trinket2=overcharged_anima_battery,id=180116,bonus_id=6536/1540/6646
-
-
-copy=battery_badge
-trinket1=overcharged_anima_battery,id=180116,bonus_id=6536/1540/6646
-trinket2=sinful_gladiators_badge_of_ferocity,id=175921,bonus_id=6623:1498:6646
-
-copy=battery_dreadfire
-trinket1=overcharged_anima_battery,id=180116,bonus_id=6536/1540/6646
-trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
-
-
-copy=dreadfire_badge
-trinket1=dreadfire_vessel,id=184030,bonus_id=7187/1498
-trinket2=sinful_gladiators_badge_of_ferocity,id=175921,bonus_id=6623:1498:6646
+# main_hand=yasahm_the_riftbreaker,id=185783,ilevel=233
+# trinket1=miniscule_mailemental_in_an_envelope,id=185846,ilevel=233
+# trinket1=soleahs_secret_technique,id=185818,ilevel=233
+# trinket1=ticking_sack_of_terror,id=185844,ilevel=233
+# 
+# trinket1=inscrutable_quantum_device,id=179350,ilevel=252
+# trinket1=shadowgrasp_totem,id=179356,ilevel=252
+# trinket1=overcharged_anima_battery,id=180116,ilevel=252
+# trinket1=infinitely_divisible_ooze,id=178769,ilevel=252
+# trinket1=bottled_flayedwing_toxin,id=178742,ilevel=252
 
 ############ legendaries ############
 
@@ -177,19 +132,158 @@ shirt=brawlers_harness,id=6125,bonus_id=7018
 copy=nessingwarys
 shirt=brawlers_harness,id=6125,bonus_id=7004
 
+# cov
+
+copy=razor_fragments
+shirt=brawlers_harness,id=6125,bonus_id=7717
+
+copy=soulstalkers
+shirt=brawlers_harness,id=6125,bonus_id=7714
+
+copy=munitions
+shirt=brawlers_harness,id=6125,bonus_id=7715
+
+copy=antlers
+shirt=brawlers_harness,id=6125,bonus_id=7716
+
+############ gems #################
+
+# 16 mastery
+gem_id=173130
+# 16 vers
+gem_id=173129
+# 16 haste
+gem_id=173128
+# 16 crit
+gem_id=173127
+
+####### domination shards #########
+
+# unholy dps (Dyz)
+187073
+187290
+187299
+187308
+187318
+
+# unholy healing (Zed)
+187079
+187292
+187301
+187310
+187320
+
+# unholy utility (Oth)
+187076
+187291
+187300
+187309
+187319
+
+# blood dps (Bek)
+187057
+187284
+187293
+187302
+187312
+
+# blood healing (Jas)
+187059
+187285
+187294
+187303
+187313
+
+# blood utility (Rev)
+187061
+187286
+187295
+187304
+187314
+
+# frost dps (Cor)
+187063
+187287
+187296
+187305
+187315
+
+# frost healing (Tel)
+187071
+187289
+187298
+187307
+187317
+
+# frost utility (Kyr)
+187065
+187288
+187297
+187306
+187316
+
 ############ presets ##############
 
-covenant=kyrian
-soulbind=pelagos,combat_meditation/enfeebled_mark:7/sharpshooters_focus:7
-
+copy=night_fae_niya_burrs
 covenant=night_fae
-soulbind=niya,grove_invigoration/spirit_attunement:7/niyas_tools_burrs
+soulbind=grove_invigoration/niyas_tools_burrs/bonded_hearts/spirit_attunement:9:1/sharpshooters_focus:9:1
 
+copy=night_fae_niya_potency
+soulbind=grove_invigoration/bonded_hearts/spirit_attunement:9:1/sharpshooters_focus:9:1/powerful_precision:9:1
+
+copy=night_fae_dreamweaver
+covenant=night_fae
+soulbind=field_of_blossoms/dream_delver/spirit_attunement:9:1/powerful_precision:9:1/sharpshooters_focus:9:1
+
+copy=night_fae_korayn_first_strike
+covenant=night_fae
+soulbind=wild_hunt_tactics/first_strike/wild_hunt_strategem/spirit_attunement:9:1/sharpshooters_focus:9:1
+
+copy=night_fae_korayn_potency
+covenant=night_fae
+soulbind=wild_hunt_tactics/wild_hunt_strategem/spirit_attunement:9:1/powerful_precision:9:1/sharpshooters_focus:9:1
+
+
+copy=kyrian_pelagos
+covenant=kyrian
+soulbind=combat_meditation/better_together/newfound_resolve/enfeebled_mark:9:1/powerful_precision:9:1/sharpshooters_focus:9:1
+
+copy=kyrian_kleia
+covenant=kyrian
+soulbind=pointed_courage/spear_of_the_archon/valiant_strikes/light_the_path/enfeebled_mark:9:1/sharpshooters_focus:9:1
+
+copy=kyrian_mikanikos_potency
+covenant=kyrian
+soulbind=brons_call_to_action/soulglow_spectrometer/effusive_anima_accelerator/enfeebled_mark:9:1/powerful_precision:9:1/sharpshooters_focus:9:1
+
+copy=kyrian_mikanikos_genesis
+soulbind=brons_call_to_action/hammer_of_genesis/soulglow_spectrometer/effusive_anima_accelerator/enfeebled_mark:9:1/sharpshooters_focus:9:1
+
+
+copy=necrolord_marileth
 covenant=necrolord
-soulbind=lead_by_example/necrotic_barrage:7
+soulbind=volatile_solvent/kevins_oozeling/necrotic_barrage:9:1/powerful_precision:9:1/sharpshooters_focus:9:1
 
+copy=necrolord_emeni
+covenant=necrolord
+soulbind=lead_by_example/pustule_eruption/necrotic_barrage:9:1/powerful_precision:9:1/sharpshooters_focus:9:1
+
+copy=necrolord_heirmir
+covenant=necrolord
+soulbind=forgeborne_reveries/heirmirs_arsenal_marrowed_gemstone/carvers_eye/mnemonic_equipment/necrotic_barrage:9:1/sharpshooters_focus:9:1
+
+
+copy=venthyr_nadjia
 covenant=venthyr
-soulbind=thrill_seeker/empowered_release:7
+soulbind=thrill_seeker/dauntless_duelist/fatal_flaw/empowered_release:9:1/sharpshooters_focus:9:1
+
+copy=venthyr_theotar
+covenant=venthyr
+soulbind=soothing_shade/party_favors/empowered_release:9:1/powerful_precision:9:1/sharpshooters_focus:9:1
+
+copy=venthyr_draven
+covenant=venthyr
+soulbind=built_for_war/battlefield_presence/empowered_release:9:1/powerful_precision:9:1/sharpshooters_focus:9:1
 
 ############ covenants ############
 
@@ -209,31 +303,31 @@ covenant=night_fae
 
 # bm
 
+copy=one_with_the_beast
+soulbind=one_with_the_beast:9:1
+
 copy=bloodletting
-soulbind=bloodletting:1
+soulbind=bloodletting:9:1
 
 copy=echoing_call
-soulbind=echoing_call:1
+soulbind=echoing_call:9:1
 
 copy=ferocious_appetite
-soulbind=ferocious_appetite:1
-
-copy=one_with_the_beast
-soulbind=one_with_the_beast:1
+soulbind=ferocious_appetite:9:1
 
 # mm
 
-copy=brutal_projectiles
-soulbind=brutal_projectiles:1
-
-copy=deadly_chain
-soulbind=deadly_chain:1
-
 copy=powerful_precision
-soulbind=powerful_precision:1
+soulbind=powerful_precision:9:1
 
 copy=sharpshooters_focus
-soulbind=sharpshooters_focus:1
+soulbind=sharpshooters_focus:9:1
+
+copy=brutal_projectiles
+soulbind=brutal_projectiles:9:1
+
+copy=deadly_chain
+soulbind=deadly_chain:9:1
 
 # sv
 
@@ -249,21 +343,38 @@ soulbind=stinging_strike:1
 copy=strength_of_the_pack
 soulbind=strength_of_the_pack:1
 
-# kyrian
-copy=enfeebled_mark
-soulbind=enfeebled_mark:1
+# covenants
 
-# necrolord
-copy=necrotic_barrage
-soulbind=necrotic_barrage:1
+copy=kyrian
+covenant=kyrian
+soulbind=
 
-# night fae
-copy=spirit_attunement
-soulbind=spirit_attunement:1
+copy=kyrian_enfeebled_mark
+soulbind=enfeebled_mark:9:1
 
-# venthyr
-copy=empowered_release
-soulbind=empowered_release:1
+
+copy=necrolord
+covenant=necrolord
+soulbind=
+
+copy=necrolord_necrotic_barrage
+soulbind=necrotic_barrage:9:1
+
+
+copy=night_fae
+covenant=night_fae
+soulbind=
+
+copy=night_fae_spirit_attunement
+soulbind=spirit_attunement:9:1
+
+
+copy=venthyr
+covenant=venthyr
+soulbind=
+
+copy=venthyr_empowered_release
+soulbind=empowered_release:9:1
 
 ############ soulbinds ############
 
@@ -271,111 +382,144 @@ copy=kyrian
 covenant=kyrian
 soulbind=
 
-# pelagos
-copy=let_go_of_the_past
-soulbind=let_go_of_the_past
-
-copy=combat_meditation
+# pelagos: 3 potency
+copy=pelagos_combat_meditation
 soulbind=combat_meditation
 
-# kleia
-copy=pointed_courage
+copy=pelagos_better_together
+soulbind=better_together
+
+copy=pelagos_newfound_resolve
+soulbind=newfound_resolve
+
+# kleia: 3 potency or 2 potency + pointed_courage
+copy=kleia_pointed_courage
 soulbind=pointed_courage
 
-# mikanikos
-copy=hammer_of_genesis
-soulbind=hammer_of_genesis
+copy=kleia_spear_of_the_archon
+soulbind=spear_of_the_archon
 
-copy=brons_call_to_action
+copy=kleia_light_the_path
+soulbind=valiant_strikes/light_the_path
+
+# mikanikos: 3 potency or 2 potency + hammer_of_genesis
+copy=mikanikos_brons_call_to_action
 soulbind=brons_call_to_action
 
+copy=mikanikos_hammer_of_genesis
+soulbind=hammer_of_genesis
+
+copy=mikanikos_soulglow_spectrometer
+soulbind=soulglow_spectrometer
+
+copy=mikanikos_effusive_anima_accelerator
+soulbind=effusive_anima_accelerator
 
 copy=necrolord
 covenant=necrolord
 soulbind=
 
-# marileth
-copy=plagueys_preemptive_strike
+# marileth: 3 potency or 2 potency + plagueys_preemptive_strike
+# shadowlands.volatile_solvent_type=[mastery, primary, crit, magic, physical]
+copy=marileth_volatile_solvent
+soulbind=volatile_solvent
+
+copy=marileth_plagueys_preemptive_strike
 soulbind=plagueys_preemptive_strike
 
-# emeni
-copy=gnashing_chompers
-soulbind=gnashing_chompers
+copy=marileth_kevins_oozeling
+soulbind=kevins_oozeling
 
-copy=lead_by_example
+# emeni: 3 potency
+copy=emeni_lead_by_example
 soulbind=lead_by_example
 
-# heirmir
-copy=serrated_spaulders
-soulbind=serrated_spaulders
+copy=emeni_pustule_eruption
+soulbind=pustule_eruption
 
-copy=heirmirs_arsenal_marrowed_gemstone
+# heirmir: 3 potency or 2 potency + heirmirs_arsenal_marrowed_gemstone
+copy=heirmir_forgeborne_reveries
+soulbind=forgeborne_reveries
+
+copy=heirmir_heirmirs_arsenal_marrowed_gemstone
 soulbind=heirmirs_arsenal_marrowed_gemstone
 
+copy=heirmir_carvers_eye
+soulbind=carvers_eye
+
+copy=heirmir_mnemonic_equipment
+soulbind=mnemonic_equipment
 
 copy=night_fae
 covenant=night_fae
 soulbind=
 
-# niya
-copy=niyas_tools_herbs
-covenant=night_fae
-soulbind=niyas_tools_herbs
-
-copy=niyas_tools_poison
-soulbind=niyas_tools_poison
-
-copy=niyas_tools_burrs
-soulbind=niyas_tools_burrs
-
-copy=grove_invigoration
+# niya: 3 potency + niyas_tools_poison or 2 potency + niyas_tools_burrs
+copy=niya_grove_invigoration
 soulbind=grove_invigoration
 
-# dreamweaver
-copy=field_of_blossoms
-soulbind=field_of_blossoms
+copy=niya_niyas_tools_poison
+soulbind=niyas_tools_poison
 
-copy=social_butterfly
+copy=niya_niyas_tools_burrs
+soulbind=niyas_tools_burrs
+
+copy=niya_bonded_hearts
+soulbind=bonded_hearts
+
+# dreamweaver: 3 potency or 2 potency + social_butterfly
+copy=dreamweaver_social_butterfly
 soulbind=social_butterfly
 
-# korayn
-copy=first_strike
-soulbind=first_strike
+copy=dreamweaver_field_of_blossoms
+soulbind=field_of_blossoms
 
-copy=wild_hunt_tactics
+copy=dreamweaver_dream_delver
+soulbind=dream_delver
+
+# korayn: 3 potency or 2 potency + first_strike
+copy=korayn_wild_hunt_tactics
 soulbind=wild_hunt_tactics
 
+copy=korayn_first_strike
+soulbind=first_strike
+
+copy=korayn_wild_hunt_strategem
+soulbind=wild_hunt_strategem
 
 copy=venthyr
 covenant=venthyr
 soulbind=
 
-# nadjia
-copy=dauntless_duelist
-soulbind=dauntless_duelist
-
-copy=exacting_preparation
-soulbind=exacting_preparation
-
-copy=thrill_seeker
+# nadjia: 3 potency or 2 potency + exacting_preparation or 2 potency + dauntless_duelist
+copy=nadjia_thrill_seeker
 soulbind=thrill_seeker
 
-# theotar
-copy=soothing_shade
+copy=nadjia_dauntless_duelist
+soulbind=dauntless_duelist
+
+copy=nadjia_exacting_preparation
+soulbind=exacting_preparation
+
+copy=nadjia_fatal_flaw
+soulbind=fatal_flaw
+
+# theotar: 3 potency or 2 potency + refined_palate or 2 potency + wasteland_propriety
+copy=theotar_soothing_shade
 soulbind=soothing_shade
 
-copy=refined_palate
+copy=theotar_refined_palate
 soulbind=refined_palate
 
-copy=wasteland_propriety
+copy=theotar_wasteland_propriety
 soulbind=wasteland_propriety
 
-# draven
-copy=superior_tactics
-soulbind=superior_tactics
+copy=theotar_party_favors
+soulbind=party_favors
 
-copy=built_for_war
+# draven: 3 potency or 2 potency + built_for_war
+copy=draven_built_for_war
 soulbind=built_for_war
 
-copy=service_in_stone
-soulbind=service_in_stone
+copy=draven_battlefield_presence
+soulbind=battlefield_presence

@@ -1,8 +1,7 @@
-https://www.raidbots.com/simbot/report/iyDuBzG7cWkVHeKBG2ZNM8/simc nf trueshot sync
-https://www.raidbots.com/simbot/report/omS6G9J4QXaS7vVTWfwcXe/simc nf adaptive sync
-https://www.raidbots.com/simbot/report/qVf46N43A7ij9G2o1AQQhG/simc kyrian trueshot sync
-https://www.raidbots.com/simbot/report/bgM44KESc6Cn1N9LRtTap7/simc kyrian resonating sync
-https://www.raidbots.com/simbot/report/hDpjSXc4vgFSTa1i7R9KUh/simc kyrian adaptive sync
+sync_up is when resonating_arrow or trueshot is up
+strong_sync_up is when
+	kyrian: resonating_arrow and trueshot are both up
+	non-kyrian: trueshot is up
 
 use this trinket if:
 it is a buff trinket or we are kyrian and it is a buff or on-use trinket and
@@ -27,7 +26,7 @@ it is a buff trinket or we are kyrian and it is a buff or on-use trinket and
 					the other trinket remaining cooldown is shorter than the next strong sync and 
 						the next strong sync is over 20 seconds away and
 							this trinket total cooldown is less than the next sync
-							or the other trinket remaining cooldown is shorter than the next sync and the next sync sync + its total cooldown is less than the next strong sync
+							or the other trinket remaining cooldown is shorter than the next sync and its total cooldown + time to the next sync is less than the next strong sync
 							or the next sync is over half this trinket total cooldown
 							or we are in a cooldown
 					or the other trinket remaining cooldown is longer than the next strong sync and
@@ -70,7 +69,7 @@ actions.trinkets+=/use_items,slots=trinket1,if=
 					trinket.2.cooldown.remains-5<variable.strong_sync_remains&
 						variable.strong_sync_remains>20&(
 							trinket.1.cooldown.duration-5<variable.sync_remains
-							|trinket.2.cooldown.remains-5<variable.sync_remains&trinket.2.cooldown.duration-5+variable.sync_remains<variable.strong_sync_remains
+							|trinket.2.cooldown.remains-5<variable.sync_remains&trinket.2.cooldown.duration-10+variable.sync_remains<variable.strong_sync_remains
 							|variable.sync_remains>trinket.1.cooldown.duration%2
 							|variable.sync_up)
 					|trinket.2.cooldown.remains-5>variable.strong_sync_remains&(

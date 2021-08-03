@@ -1,0 +1,81 @@
+
+SimulationCraftDB = {
+	["profileKeys"] = {
+		["Jayeasy - Tichondrius"] = "Jayeasy - Tichondrius",
+		["Imthecook - Illidan"] = "Imthecook - Illidan",
+		["Cheezies - Proudmoore"] = "Cheezies - Proudmoore",
+		["Jazz - Proudmoore"] = "Jazz - Proudmoore",
+		["Citypunch - Terenas"] = "Citypunch - Terenas",
+		["Cheezies - Thunderhorn"] = "Cheezies - Thunderhorn",
+		["Purplelambo - Proudmoore"] = "Purplelambo - Proudmoore",
+		["Jayeasy - Thunderhorn"] = "Jayeasy - Thunderhorn",
+		["Jazzcat - Terenas"] = "Jazzcat - Terenas",
+		["Cheezies - Sargeras"] = "Cheezies - Sargeras",
+		["Endure - Terenas"] = "Endure - Terenas",
+		["Citypunch - Proudmoore"] = "Citypunch - Proudmoore",
+		["Thebudknight - Illidan"] = "Thebudknight - Illidan",
+		["Samuelhayden - Illidan"] = "Samuelhayden - Illidan",
+		["Cheezies - Illidan"] = "Cheezies - Illidan",
+	},
+	["profiles"] = {
+		["Jayeasy - Tichondrius"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+			["frame"] = {
+				["ofsx"] = -47.99991989135742,
+				["height"] = 711.0001220703125,
+				["ofsy"] = -1.500142455101013,
+				["width"] = 879.9998168945312,
+			},
+		},
+		["Imthecook - Illidan"] = {
+			["minimap"] = {
+				["minimapPos"] = 225.0000051831962,
+				["hide"] = true,
+			},
+		},
+		["Cheezies - Proudmoore"] = {
+		},
+		["Jazz - Proudmoore"] = {
+		},
+		["Citypunch - Terenas"] = {
+			["minimap"] = {
+				["minimapPos"] = 229.8252139756482,
+			},
+		},
+		["Cheezies - Thunderhorn"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
+		["Purplelambo - Proudmoore"] = {
+		},
+		["Jayeasy - Thunderhorn"] = {
+			["minimap"] = {
+				["minimapPos"] = 210.91613376875,
+				["hide"] = true,
+			},
+		},
+		["Jazzcat - Terenas"] = {
+			["minimap"] = {
+				["minimapPos"] = 197.8188838941392,
+			},
+		},
+		["Cheezies - Sargeras"] = {
+		},
+		["Endure - Terenas"] = {
+		},
+		["Citypunch - Proudmoore"] = {
+		},
+		["Thebudknight - Illidan"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
+		["Samuelhayden - Illidan"] = {
+		},
+		["Cheezies - Illidan"] = {
+		},
+	},
+}

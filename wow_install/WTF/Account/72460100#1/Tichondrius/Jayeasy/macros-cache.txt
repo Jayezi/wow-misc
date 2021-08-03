@@ -1,0 +1,92 @@
+VER 3 0100000000000050 "Barbed Shot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Barbed Shot
+/cast Claw
+/cast Bite
+/cast Smack
+END
+VER 3 010000000000003E "Cancel" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/stopcasting
+/cancelaura Aspect of the Turtle
+/cancelaura Gunshoes
+END
+VER 3 0100000000000051 "Chimaera Shot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Chimaera Shot
+/cast Claw
+/cast Bite
+/cast Smack
+END
+VER 3 010000000000004E "Cobra Shot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Cobra Shot
+/cast Claw
+/cast Bite
+/cast Smack
+END
+VER 3 0100000000000044 "Feign Death" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopcasting
+/cast Feign Death
+END
+VER 3 010000000000004F "Kill Command" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Kill Command
+/cast Claw
+/cast Bite
+/cast Smack
+END
+VER 3 0100000000000045 "MD focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus,exists][@pet,exists][@mouseover] Misdirection
+END
+VER 3 0100000000000057 "md ub" "INV_MISC_QUESTIONMARK"
+/target Ubpal
+/cast Misdirection
+/targetlasttarget
+/cancelaura Misdirection
+END
+VER 3 0100000000000052 "Multi-Shot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Multi-Shot
+/cast Claw
+/cast Bite
+/cast Smack
+END
+VER 3 0100000000000049 "Pet Assist" "524348"
+#showtooltip
+/petfollow
+/petassist
+END
+VER 3 010000000000004A "Pet Attack" "132152"
+#showtooltip
+/petattack
+END
+VER 3 010000000000004C "Pet Move" "457329"
+#showtooltip
+/petfollow
+/petpassive
+/petmoveto
+END
+VER 3 0100000000000053 "Spirit Mend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead] Spirit Mend; [@player] Spirit Mend
+END
+VER 3 0100000000000055 "Stun" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/petpassive
+/petattack
+/petassist
+/cast Intimidation
+END
+VER 3 0100000000000054 "Trueshot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Trueshot
+/use 13
+END
+VER 3 0100000000000056 "Wild Spirits" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Wild Spirits
+END
