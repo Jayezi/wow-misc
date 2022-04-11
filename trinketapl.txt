@@ -31,6 +31,7 @@ it is a buff trinket or we are kyrian and it is a buff or on-use trinket and
 							or we are in a cooldown
 					or the other trinket remaining cooldown is longer than the next strong sync and
 						this trinket total cooldown is less than the next strong sync
+						or this trinket would lose a use if held for the next strong sync
 						or this trinket is not a buff trinket and 
 							the next sync is over half its total cooldown
 							or we are in a cooldown
@@ -74,6 +75,7 @@ actions.trinkets+=/use_items,slots=trinket1,if=
 							|variable.sync_up)
 					|trinket.2.cooldown.remains-5>variable.strong_sync_remains&(
 						trinket.1.cooldown.duration-5<variable.strong_sync_remains
+						|trinket.1.cooldown.duration<fight_remains&variable.strong_sync_remains+trinket.1.cooldown.duration>fight_remains
 						|!trinket.1.has_use_buff&(
 							variable.sync_remains>trinket.1.cooldown.duration%2
 							|variable.sync_up))))))

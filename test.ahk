@@ -7,7 +7,7 @@ Send, e
 While GetKeyState("Scrolllock", "T")
 {
 ControlSend,, e, World of Warcraft
-Sleep, 31000 ;
+Sleep, 4000 ;
 }
 return
 }
