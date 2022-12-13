@@ -2,157 +2,75 @@
 
 # raid
 
-# Normal	252	259
-# Heroic	265	272
-# Mythic	278	285
-# Legendary	291
+# Normal	389/395/398/405
+# Heroic	402/408/411/418
+# Mythic	415/421/424/431
 
-# head=helm_of_solemn_vigil,id=189775,ilevel=278
-# head=godstalkers_sallet,id=188859,ilevel=278
+# head=stormwing_harriers_skullmask,id=200390,ilevel=424
 
-# shoulder=mantle_of_the_broken_beast,id=189813,ilevel=278
-# shoulder=godstalkers_pauldrons,id=188856,ilevel=285
+# shoulder=stormwing_harriers_pinions,id=200392,ilevel=424
 
-# chest=oracles_chromatic_cuirass,id=189785,ilevel=278
-# chest=godstalkers_hauberk,id=188858,ilevel=285
+# chest=stormwing_harriers_cuirass,id=200387,ilevel=421
 
-# neck=beacon_of_stormwind,id=189838,ilevel=278
-# neck=cartel_xys_proof_of_initiation,id=189827,ilevel=278
-# neck=worldkiller_iris,id=189859,ilevel=285
+# neck=eye_of_the_vengeful_hurricane,id=195496,ilevel=421
 
-# back=drape_of_mournful_melodies,id=189791,ilevel=278
-# back=lurking_predators_camouflage,id=189815,ilevel=278
-# back=shroud_of_the_sires_chosen,id=189847,ilevel=285
-# back=godstalkers_camouflage,id=188872,ilevel=278
-# back=godstalkers_camouflage,id=188872,ilevel=285
+# back=acidproof_webbing,id=195511,ilevel=415
 
-# wrist=wristwraps_of_nights_renewal,id=189797,ilevel=278
-# wrist=interdimensional_manica,id=189849,ilevel=285
-# wrist=godstalkers_wristwraps,id=188855,ilevel=278
-# wrist=godstalkers_wristwraps,id=188855,ilevel=285
+# wrists=surgingsong_conductors,id=195516,ilevel=421
 
-# hands=unlicensed_hyperlight_handlers,id=189824,ilevel=278
-# hands=gauntlets_of_unseen_guests,id=189844,ilevel=285
-# hands=godstalkers_gauntlets,id=188861,ilevel=278
-# hands=godstalkers_gauntlets,id=188861,ilevel=285
+# hands=stormwing_harriers_handguards,id=200389,ilevel=421
 
-# waist=combustible_collaboration_girdle,id=189804,ilevel=278
-# waist=girdle_of_the_first_gate,id=189776,ilevel=278
-# waist=kings_wolfheart_waistband,id=189837,ilevel=278
-# waist=godstalkers_fauld,id=188857,ilevel=278
+# waist=unnatural_dripstone_cinch,id=195507,ilevel=415
 
-# legs=epochal_oppressors_greaves,id=189857,ilevel=285
-# legs=godstalkers_tassets,id=188860,ilevel=278
-# legs=godstalkers_tassets,id=188860,ilevel=285
+# legs=stormwing_harriers_greaves,id=200391,ilevel=415
 
-# feet=ephemerastained_sollerets,id=189831,ilevel=278
-# feet=winters_stampeding_striders,id=189795,ilevel=278
-# feet=godstalkers_sabatons,id=188862,ilevel=278
+# feet=daring_chasmleapers,id=195495,ilevel=421
 
-# finger1=loquacious_keepers_peridot,id=189802,ilevel=278
-# finger1=modified_defense_grid,id=189772,ilevel=278
-# finger1=taciturn_keepers_lapis,id=189833,ilevel=278
-# finger1=rygelons_heraldric_ring,id=189854,ilevel=285
+# finger1=seal_of_filial_duty,id=195526,ilevel=431
+# finger1=seal_of_diurnas_chosen,id=195480,ilevel=421
 
-# trinket1=cache_of_acquired_treasures,id=188265,ilevel=278
-# trinket1=bells_of_the_endless_feast,id=188267,ilevel=278
-# trinket1=elegy_of_the_eternals,id=188270,ilevel=278
-# trinket1=the_first_sigil,id=188271,ilevel=278
-# trinket1=scars_of_fraternal_strife,id=188253,ilevel=285
+# ranged
+
+# trinket1=controlled_current_technique,id=194305,ilevel=421
+
+# main_hand=neltharax_enemy_of_the_sky,id=195527,ilevel=431
 
 # melee
+
 # trinket1=chains_of_domination,id=188252,ilevel=285
 # trinket1=earthbreakers_impact,id=188264,ilevel=278
-
-# main_hand=astral_verdict,id=189853,ilevel=285
-# main_hand=final_forte,id=189790,ilevel=278
-# main_hand=xy_captains_crossbow,id=189828,ilevel=278
 
 # main_hand=elysias_promise,id=189799,ilevel=278
 # main_hand=zovastrum_the_unmaking,id=189861,ilevel=285
 
 # dungeon
 
-# main_hand=yasahm_the_riftbreaker,id=185783,ilevel=278
-# trinket1=miniscule_mailemental_in_an_envelope,id=185846,ilevel=278
-# trinket1=soleahs_secret_technique,id=185818,ilevel=278
-# trinket1=ticking_sack_of_terror,id=185844,ilevel=278
-# 
-# trinket1=inscrutable_quantum_device,id=179350,ilevel=278
-# trinket1=shadowgrasp_totem,id=179356,ilevel=278
-# trinket1=overcharged_anima_battery,id=180116,ilevel=278
-# trinket1=infinitely_divisible_ooze,id=178769,ilevel=278
-# trinket1=bottled_flayedwing_toxin,id=178742,ilevel=278
 
-############ legendaries ############
+############ talents ##############
 
-copy=call_of_the_wild
-shirt=brawlers_harness,id=6125,bonus_id=7003
+# class
 
-copy=nessingwarys
-shirt=brawlers_harness,id=6125,bonus_id=7004
-
-copy=soulforge
-shirt=brawlers_harness,id=6125,bonus_id=7005
-
-# bm
-
-copy=dire_command
-shirt=brawlers_harness,id=6125,bonus_id=7007
-
-copy=flamewakers
-shirt=brawlers_harness,id=6125,bonus_id=7008
-
-copy=qapla
-shirt=brawlers_harness,id=6125,bonus_id=7009
-
-copy=rylakstalkers
-shirt=brawlers_harness,id=6125,bonus_id=7010
+class_talents=/kill_command:0/kill_shot:1
+class_talents+=/improved_kill_shot:1
+class_talents+=/tar_trap:0
+class_talents+=/improved_traps:2
+class_talents+=/high_explosive_trap:0
+class_talents+=/beast_master:0/keen_eyesight:2/master_marksman:2
+class_talents+=/improved_kill_command:0/serrated_shots:2/arctic_bola:1/serpent_sting:1
+class_talents+=/alpha_predator:0/killer_instinct:0/steel_trap:1/stampede:0/death_chakram:1/explosive_shot:0/barrage:0/poison_injection:1/hydras_bite:0
 
 # mm
 
-copy=eagletalons
-shirt=brawlers_harness,id=6125,bonus_id=7011
-
-copy=surging_shots
-shirt=brawlers_harness,id=6125,bonus_id=7012
-
-copy=serpentstalkers
-shirt=brawlers_harness,id=6125,bonus_id=7013
-
-copy=vigil
-shirt=brawlers_harness,id=6125,bonus_id=7014
-
-# sv
-
-copy=wildfire
-shirt=brawlers_harness,id=6125,bonus_id=7015
-
-copy=rylakstalkers
-shirt=brawlers_harness,id=6125,bonus_id=7016
-
-copy=latent_poison
-shirt=brawlers_harness,id=6125,bonus_id=7017
-
-copy=butchers
-shirt=brawlers_harness,id=6125,bonus_id=7018
-
-# covenant
-
-copy=soulstalkers
-shirt=brawlers_harness,id=6125,bonus_id=7714
-
-copy=munitions
-shirt=brawlers_harness,id=6125,bonus_id=7715
-
-copy=antlers
-shirt=brawlers_harness,id=6125,bonus_id=7716
-
-copy=razor_fragments
-shirt=brawlers_harness,id=6125,bonus_id=7717
-
-copy=unity
-shirt=brawlers_harness,id=6125,bonus_id=8122
+spec_talents=/aimed_shot:1
+spec_talents+=/crack_shot:1/improved_steady_shot:1/precise_shots:2
+spec_talents+=/rapid_fire:1/lone_wolf:1/chimaera_shot:0
+spec_talents+=/streamline:2/killer_accuracy:0/hunters_knowledge:0/careful_aim:2
+spec_talents+=/surging_shots:1/lethal_shots:0/deathblow:1/target_practice:1/focused_aim:2
+spec_talents+=/multishot:0/razor_fragments:1/double_tap:1/deadeye:0/bursting_shot:0
+spec_talents+=/trick_shots:0/bombardment:0/volley:0/steady_focus:2/serpentstalkers_trickery:1
+spec_talents+=/light_ammo:0/heavy_ammo:0/trueshot:1/lock_and_load:1/bullseye:2
+spec_talents+=/bulletstorm:0/sharpshooter:0/eagletalons_true_focus:2/wailing_arrow:0/legacy_of_the_windrunners:2
+spec_talents+=/salvo:0/calling_the_shots:0/unerring_vision:1/readiness:0/windrunners_barrage:0/windrunners_guidance:0
 
 ############ gems #################
 
@@ -164,98 +82,6 @@ gem_id=173128
 gem_id=173129
 # 16 mastery
 gem_id=173130
-
-############ conduits ############
-
-# bm
-soulbind=one_with_the_beast:11:1
-soulbind=bloodletting:11:1
-soulbind=echoing_call:11:1
-soulbind=ferocious_appetite:11:1
-
-# mm
-soulbind=powerful_precision:11:1
-soulbind=sharpshooters_focus:11:1
-soulbind=brutal_projectiles:11:1
-soulbind=deadly_chain:11:1
-
-# sv
-soulbind=deadly_tandem:11:1
-soulbind=flame_infusion:11:1
-soulbind=stinging_strike:11:1
-soulbind=strength_of_the_pack:11:1
-
-# covenants
-soulbind=enfeebled_mark:11:1
-soulbind=necrotic_barrage:11:1
-soulbind=spirit_attunement:11:1
-soulbind=empowered_release:11:1
-
-############ soulbinds ##############
-
-covenant=night_fae
-# niya burrs + 2 potency
-soulbind=grove_invigoration/niyas_tools_burrs/bonded_hearts/spirit_attunement:11:1/sharpshooters_focus:11:1
-# niya poison + 3 potency
-soulbind=grove_invigoration/niyas_tools_poison/bonded_hearts/spirit_attunement:11:1/sharpshooters_focus:11:1/powerful_precision:11:1
-
-# dreamweaver social_butterfly + 2 potency
-soulbind=field_of_blossoms/dream_delver/social_butterfly/spirit_attunement:11:1/sharpshooters_focus:11:1
-# dreamweaver 3 potency
-soulbind=field_of_blossoms/dream_delver/spirit_attunement:11:1/powerful_precision:11:1/sharpshooters_focus:11:1
-
-# korayn first_strike + 2 potency
-soulbind=wild_hunt_tactics/wild_hunt_strategem/first_strike/spirit_attunement:11:1/sharpshooters_focus:11:1
-# korayn 3 potency
-soulbind=wild_hunt_tactics/wild_hunt_strategem/spirit_attunement:11:1/powerful_precision:11:1/sharpshooters_focus:11:1
-
-covenant=kyrian
-# pelagos
-soulbind=combat_meditation/better_together/newfound_resolve/enfeebled_mark:11:1/powerful_precision:11:1/sharpshooters_focus:11:1
-
-# kleia pointed_courage + 2 potency
-soulbind=pear_of_the_archon/valiant_strikes/light_the_path/pointed_courage/enfeebled_mark:11:1/sharpshooters_focus:11:1
-# kleia 3 potency
-soulbind=spear_of_the_archon/valiant_strikes/light_the_path/enfeebled_mark:11:1/sharpshooters_focus:11:1/powerful_precision:11:1
-
-# mikanikos 3 potency
-soulbind=brons_call_to_action/soulglow_spectrometer/effusive_anima_accelerator/enfeebled_mark:11:1/powerful_precision:11:1/sharpshooters_focus:11:1
-# mikanikos hammer_of_genesis + 2 potency
-soulbind=brons_call_to_action/soulglow_spectrometer/effusive_anima_accelerator/hammer_of_genesis/enfeebled_mark:11:1/sharpshooters_focus:11:1
-
-covenant=necrolord
-# marileth plagueys_preemptive_strike + 2 potency
-soulbind=volatile_solvent/kevins_oozeling/plagueys_preemptive_strike/necrotic_barrage:11:1/sharpshooters_focus:11:1
-# marileth 3 potency
-soulbind=volatile_solvent/kevins_oozeling/necrotic_barrage:11:1/powerful_precision:11:1/sharpshooters_focus:11:1
-
-# emeni
-soulbind=lead_by_example/pustule_eruption/necrotic_barrage:11:1/powerful_precision:11:1/sharpshooters_focus:11:1
-
-# heirmir heirmirs_arsenal_marrowed_gemstone + 2 potency
-soulbind=forgeborne_reveries/carvers_eye/mnemonic_equipment/heirmirs_arsenal_marrowed_gemstone/necrotic_barrage:11:1/sharpshooters_focus:11:1
-# heirmir 3 potency
-soulbind=forgeborne_reveries/carvers_eye/mnemonic_equipment/necrotic_barrage:11:1/sharpshooters_focus:11:1/powerful_precision:11:1
-
-covenant=venthyr
-# nadjia 3 potency
-soulbind=thrill_seeker/fatal_flaw/empowered_release:11:1/sharpshooters_focus:11:1/powerful_precision:11:1
-# nadjia exacting_preparation + 2 potency
-soulbind=thrill_seeker/fatal_flaw/exacting_preparation/empowered_release:11:1/sharpshooters_focus:11:1
-# nadjia dauntless_duelist + 2 potency
-soulbind=thrill_seeker/fatal_flaw/dauntless_duelist/empowered_release:11:1/sharpshooters_focus:11:1
-
-# theotar 3 potency
-soulbind=soothing_shade/party_favors/empowered_release:11:1/powerful_precision:11:1/sharpshooters_focus:11:1
-# theotar refined_palate + 2 potency
-soulbind=soothing_shade/party_favors/refined_palate/empowered_release:11:1/sharpshooters_focus:11:1
-# theotar wasteland_propriety + 2 potency
-soulbind=soothing_shade/party_favors/wasteland_propriety/empowered_release:11:1/sharpshooters_focus:11:1
-
-# draven 3 potency
-soulbind=battlefield_presence/empowered_release:11:1/powerful_precision:11:1/sharpshooters_focus:11:1
-# draven built_for_war + 2 potency
-soulbind=battlefield_presence/built_for_war/empowered_release:11:1/sharpshooters_focus:11:1
 
 ############ races ##############
 
@@ -320,7 +146,7 @@ race=mechagnome
 ############ tier ##############
 
 copy=2pc
-set_bonus=tier28_2pc=1
+set_bonus=tier29_2pc=1
 
 copy=4pc
-set_bonus=tier28_4pc=1
+set_bonus=tier29_4pc=1
