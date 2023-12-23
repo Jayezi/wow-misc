@@ -1,50 +1,44 @@
 ############## gear ##############
 
-# raid
-
 # Normal	389/395/398/405
 # Heroic	402/408/411/418
 # Mythic	415/421/424/431
+# M+ 20 		405
+# M+ 20 Vault	421
 
-# head=stormwing_harriers_skullmask,id=200390,ilevel=424
+head=stormwing_harriers_skullmask,id=200390,ilevel=424
+shoulder=stormwing_harriers_pinions,id=200392,ilevel=424
+chest=stormwing_harriers_cuirass,id=200387,ilevel=421
+neck=eye_of_the_vengeful_hurricane,id=195496,ilevel=421
+back=acidproof_webbing,id=195511,ilevel=415
+wrists=surgingsong_conductors,id=195516,ilevel=421
+hands=stormwing_harriers_handguards,id=200389,ilevel=421
+waist=unnatural_dripstone_cinch,id=195507,ilevel=415
+legs=stormwing_harriers_greaves,id=200391,ilevel=415
+feet=daring_chasmleapers,id=195495,ilevel=421
+finger1=seal_of_filial_duty,id=195526,ilevel=431
+finger1=seal_of_diurnas_chosen,id=195480,ilevel=421
 
-# shoulder=stormwing_harriers_pinions,id=200392,ilevel=424
+main_hand=neltharax_enemy_of_the_sky,id=195527,ilevel=431
+main_hand=searing_blazecaster,id=195490,ilevel=415
+main_hand=awakmani_grimtotems_legacy,id=195483,ilevel=421
 
-# chest=stormwing_harriers_cuirass,id=200387,ilevel=421
+trinket1=decoration_of_flame,id=194299,ilevel=415
+trinket1=stormeaters_boon,id=194302,ilevel=421
+trinket1=manic_grieftorch,id=194308,ilevel=424
 
-# neck=eye_of_the_vengeful_hurricane,id=195496,ilevel=421
+trinket1=whispering_incarnate_icon,id=194301,ilevel=421
+trinket1=controlled_current_technique,id=194305,ilevel=421
+trinket1=spiteful_storm,id=194309,ilevel=424
 
-# back=acidproof_webbing,id=195511,ilevel=415
+trinket1=horn_of_valor,id=133642,ilevel=421
+trinket1=algethar_puzzle_box,id=193701,ilevel=421
 
-# wrists=surgingsong_conductors,id=195516,ilevel=421
-
-# hands=stormwing_harriers_handguards,id=200389,ilevel=421
-
-# waist=unnatural_dripstone_cinch,id=195507,ilevel=415
-
-# legs=stormwing_harriers_greaves,id=200391,ilevel=415
-
-# feet=daring_chasmleapers,id=195495,ilevel=421
-
-# finger1=seal_of_filial_duty,id=195526,ilevel=431
-# finger1=seal_of_diurnas_chosen,id=195480,ilevel=421
-
-# ranged
-
-# trinket1=controlled_current_technique,id=194305,ilevel=421
-
-# main_hand=neltharax_enemy_of_the_sky,id=195527,ilevel=431
-
-# melee
-
-# trinket1=chains_of_domination,id=188252,ilevel=285
-# trinket1=earthbreakers_impact,id=188264,ilevel=278
-
-# main_hand=elysias_promise,id=189799,ilevel=278
-# main_hand=zovastrum_the_unmaking,id=189861,ilevel=285
-
-# dungeon
-
+trinket1=eye_of_skovald,id=133641,ilevel=421
+trinket1=hunger_of_the_pack,id=136975,ilevel=421
+trinket1=windswept_pages,id=144113,ilevel=421
+trinket1=bottle_of_spiraling_winds,id=193697,ilevel=421
+trinket1=ruby_whelp_shell,id=193757,ilevel=421
 
 ############ talents ##############
 
@@ -74,14 +68,62 @@ spec_talents+=/salvo:0/calling_the_shots:0/unerring_vision:1/readiness:0/windrun
 
 ############ gems #################
 
-# 16 crit
-gem_id=173127
-# 16 haste
-gem_id=173128
-# 16 vers
-gem_id=173129
-# 16 mastery
-gem_id=173130
+# agi/crit
+gem_id=192982
+# agi/haste
+gem_id=192985
+# agi/mastery
+gem_id=192988
+# agi/vers
+gem_id=192991
+
+# crit/haste
+gem_id=192919
+# crit/mastery
+gem_id=192922
+# crit/vers
+gem_id=192925
+
+# haste/crit
+gem_id=192945
+# haste/mastery
+gem_id=192948
+# haste/vers
+gem_id=192952
+
+# mastery/crit
+gem_id=192958
+# mastery/haste
+gem_id=192961
+# mastery/vers
+gem_id=192964
+
+# vers/crit
+gem_id=192932
+# vers/haste
+gem_id=192935
+# vers/mastery
+gem_id=192938
+
+############ enchants ###########
+
+# mastery: mechanical/dragonkin, crit: elemental/beast, vers: undead/humanoid, haste: giant/demon/aberration
+target_race=[mechanical/dragonkin/elemental/beast/undead/humanoid/giant/demon/aberration]
+enchant=high_intensity_thermal_scanner_3
+
+dragonflight.gyroscopic_kaleidoscope_stat=[crit/mastery/haste/versatility]
+enchant=gyroscopic_kaleidoscope_3
+
+enchant=projectile_propulsion_pinion_3
+
+enchant=waking_stats_3
+
+enchant=fierce_armor_kit
+
+enchant=devotion_of_crit_3
+enchant=devotion_of_haste_3
+enchant=devotion_of_mastery_3
+enchant=devotion_of_crit_3
 
 ############ races ##############
 
@@ -145,8 +187,23 @@ race=mechagnome
 
 ############ tier ##############
 
+copy=0pc
+set_bonus=tier29_2pc=0
+set_bonus=tier29_4pc=0
+
 copy=2pc
 set_bonus=tier29_2pc=1
+set_bonus=tier29_4pc=0
 
 copy=4pc
+set_bonus=tier29_2pc=1
 set_bonus=tier29_4pc=1
+
+############ power infusion #########
+
+external_buffs.pool=power_infusion:120
+
+############ overrides ##############
+
+override.spell_data=effect.########.ap_coefficient=#######
+override.player.spell_data=effect.#######.ap_coefficient=#######

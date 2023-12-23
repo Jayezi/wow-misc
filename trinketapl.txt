@@ -1,93 +1,106 @@
-actions.trinkets=/variable,name=sync_up,value=buff.trueshot.up
+# True if effects that are desirable to sync a trinket buff with are ready.
+actions.trinkets=/variable,name=sync_ready,value=cooldown.trueshot.ready
+
+# True if effecs that are desirable to sync a trinket buff with are active.
+actions.trinkets+=/variable,name=sync_active,value=buff.trueshot.up
+
+# Time until the effects that are desirable to sync a trinket buff with will be ready.
 actions.trinkets+=/variable,name=sync_remains,value=cooldown.trueshot.remains
 
-consider a use effect trinket stronger if it:
-	has a buff use effect and is against:
-		no buff use effect
-		shorter cooldown buff use effect
-	has a dmg use effect and is against:
-		no buff use effect
-		no dmg use effect
-		shorter cooldown dmg use effect
+consider a trinket use effect stronger if it:
 	is against no use effect
+	or has a buff use effect and
+		is against a no buff use effect
+		or is not mirror_of_fractured_tomorrows and
+			is against mirror_of_fractured_tomorrows
+			or has a longer cooldown
+			or has a longer cast
+			or has equal cooldown and cast
+	or has no buff use effect and
+		is against no use effect
+		or is against a dmg use effect and
+			has a longer cooldown
+			or has a longer cast
+			or has equal cooldown and cast
 
-actions.trinkets+=/variable,name=trinket_1_stronger,value=
+actions.precombat+=/variable,name=trinket_1_stronger,value=
+	!trinket.2.has_cooldown|
 	trinket.1.has_use_buff&(
 		!trinket.2.has_use_buff
-		|trinket.2.cooldown.duration<trinket.1.cooldown.duration)
-	|!trinket.1.has_use_buff&trinket.1.has_cooldown&(
-		!trinket.2.has_use_buff&trinket.2.cooldown.duration<trinket.1.cooldown.duration)
-	|!trinket.2.has_cooldown
+		|!trinket.1.is.mirror_of_fractured_tomorrows&(
+			trinket.2.is.mirror_of_fractured_tomorrows
+			|trinket.2.cooldown.duration<trinket.1.cooldown.duration
+			|trinket.2.cast_time<trinket.1.cast_time
+			|trinket.2.cast_time=trinket.1.cast_time&trinket.2.cooldown.duration=trinket.1.cooldown.duration))
+	|!trinket.1.has_use_buff&(
+		!trinket.2.has_use_buff&(
+			trinket.2.cooldown.duration<trinket.1.cooldown.duration
+			|trinket.2.cast_time<trinket.1.cast_time
+			|trinket.2.cast_time=trinket.1.cast_time&trinket.2.cooldown.duration=trinket.1.cooldown.duration))
+
+# Determine the stronger trinket to sync with cooldowns. In descending priority: buff effects > damage effects, longer > shorter cooldowns, longer > shorter cast times. Special case to consider Mirror of Fractured Tomorrows weaker than other buff effects since its power is split between the dmg effect and the buff effect.
+actions.precombat+=/variable,name=trinket_1_stronger,value=!trinket.2.has_cooldown|trinket.1.has_use_buff&(!trinket.2.has_use_buff|!trinket.1.is.mirror_of_fractured_tomorrows&(trinket.2.is.mirror_of_fractured_tomorrows|trinket.2.cooldown.duration<trinket.1.cooldown.duration|trinket.2.cast_time<trinket.1.cast_time|trinket.2.cast_time=trinket.1.cast_time&trinket.2.cooldown.duration=trinket.1.cooldown.duration))|!trinket.1.has_use_buff&(!trinket.2.has_use_buff&(trinket.2.cooldown.duration<trinket.1.cooldown.duration|trinket.2.cast_time<trinket.1.cast_time|trinket.2.cast_time=trinket.1.cast_time&trinket.2.cooldown.duration=trinket.1.cooldown.duration))
+actions.precombat+=/variable,name=trinket_2_stronger,value=!variable.trinket_1_stronger
 
 use this trinket if it:
 has a buff use effect and
-	we are in a sync and
+	we are ready to sync and
 		this trinket is stronger
 		or the other trinket is not ready
-	or we are not in a sync and
+	or we are not ready to sync and
 		this trinket is stronger and
-			the next sync is over half this total cooldown
+			the next sync is over 1/3 this total cooldown and we can get another use in the fight
 			or the other trinket would lose a use
 		or the other trinket is stronger and
 			the other trinket is not ready and
 				the other trinket will be ready for the next sync
 					and the next sync is over 20 seconds away
 				or the other trinket will not be ready for the next sync and
-					the next sync is over half this trinket total cooldown
+					the next sync is over 1/3 this trinket total cooldown
 					or this trinket would lose a use if held for the next sync
 			or the other trinket is ready and
 				the next sync is over 20 seconds away and
-					the next sync is less than half the other trinket total cooldown
-or has no buff effect and
-	we are in a sync and
+					the next sync is less than 1/3 the other trinket total cooldown
+or has no buff effect and won't waste sync time with a cast and
+	is against no buff use effect and
 		this trinket is stronger
 		or the other trinket is not ready
-	or we are not in a sync and 
-		is against no buff use effect and
-			this trinket is stronger
-			or the other trinket is not ready
-		or is against a buff use effect and
-			the next sync is over 20 seconds away
-			or the other trinket cooldown is over 20 seconds
-or the fight will end before 25 seconds
+	or is against a buff use effect and
+		the next sync is over 20 seconds away
+		or the other trinket cooldown is over 20 seconds			
+or the fight will end before 25 seconds and
+	this is the strongest trinket
+	or the other trinket is not ready
 
-actions.trinkets+=/use_items,slots=trinket1,if=
+actions.trinkets+=/use_item,use_off_gcd=1,slot=trinket1,if=
 trinket.1.has_use_buff&
-	(variable.sync_up&(
+	(variable.sync_ready&(
 		variable.trinket_1_stronger
 		|trinket.2.cooldown.remains)
-	|!variable.sync_up&(
+	|!variable.sync_ready&(
 		variable.trinket_1_stronger&(
-			variable.sync_remains>trinket.1.cooldown.duration%2
-			|trinket.2.has_use_buff&trinket.2.cooldown.remains>variable.sync_remains-15&trinket.2.cooldown.remains-5<variable.sync_remains&variable.sync_remains+40>fight_remains)
+			variable.sync_remains>trinket.1.cooldown.duration%3&fight_remains>trinket.1.cooldown.duration+20
+			|trinket.2.has_use_buff&trinket.2.cooldown.remains>variable.sync_remains-15&trinket.2.cooldown.remains-5<variable.sync_remains&variable.sync_remains+45>fight_remains)
 		|variable.trinket_2_stronger&(
 			trinket.2.cooldown.remains&(
 				trinket.2.cooldown.remains-5<variable.sync_remains&
 					variable.sync_remains>=20
 				|trinket.2.cooldown.remains-5>=variable.sync_remains&(
-					variable.sync_remains>trinket.1.cooldown.duration%2
+					variable.sync_remains>trinket.1.cooldown.duration%3
 					|trinket.1.cooldown.duration<fight_remains&(variable.sync_remains+trinket.1.cooldown.duration>fight_remains)))
 			|trinket.2.cooldown.ready
 				&variable.sync_remains>20&
-					variable.sync_remains<trinket.2.cooldown.duration%2)))
-|!trinket.1.has_use_buff&(
-	variable.sync_up&(
+					variable.sync_remains<trinket.2.cooldown.duration%3)))
+|!trinket.1.has_use_buff&(trinket.1.cast_time=0|!variable.sync_active)&(
+	!trinket.2.has_use_buff&(
 		variable.trinket_1_stronger
 		|trinket.2.cooldown.remains)
-	|!variable.sync_up&(
-		!trinket.2.has_use_buff&(
-			variable.trinket_1_stronger
-			|trinket.2.cooldown.remains)
-		|trinket.2.has_use_buff&(
-			variable.sync_remains>20
-			|trinket.2.cooldown.remains>20)))
-|target.time_to_die<25&(variable.trinket_1_stronger|trinket.2.cooldown.remains)
+	|trinket.2.has_use_buff&(
+		variable.sync_remains>20
+		|trinket.2.cooldown.remains>20))
+|fight_remains<25&(
+	variable.trinket_1_stronger
+	|trinket.2.cooldown.remains)
 
-actions.trinkets=variable,name=sync_up,value=buff.trueshot.up
-actions.trinkets+=/variable,name=sync_remains,value=cooldown.trueshot.remains
-actions.trinkets+=/variable,name=trinket_1_stronger,value=trinket.1.has_use_buff&(!trinket.2.has_use_buff|trinket.2.cooldown.duration<trinket.1.cooldown.duration)|!trinket.1.has_use_buff&trinket.1.has_cooldown&!trinket.2.has_use_buff&trinket.2.cooldown.duration<trinket.1.cooldown.duration|!trinket.2.has_cooldown
-actions.trinkets+=/variable,name=trinket_2_stronger,value=trinket.2.has_use_buff&(!trinket.1.has_use_buff|trinket.1.cooldown.duration<trinket.2.cooldown.duration)|!trinket.2.has_use_buff&trinket.2.has_cooldown&!trinket.1.has_use_buff&trinket.1.cooldown.duration<trinket.2.cooldown.duration|!trinket.1.has_cooldown
-
-actions.trinkets+=/use_items,slots=trinket1,if=trinket.1.has_use_buff&(variable.sync_up&(variable.trinket_1_stronger|trinket.2.cooldown.remains)|!variable.sync_up&(variable.trinket_1_stronger&(variable.sync_remains>trinket.1.cooldown.duration%2|trinket.2.has_use_buff&trinket.2.cooldown.remains>variable.sync_remains-15&trinket.2.cooldown.remains-5<variable.sync_remains&variable.sync_remains+40>fight_remains)|variable.trinket_2_stronger&(trinket.2.cooldown.remains&(trinket.2.cooldown.remains-5<variable.sync_remains&variable.sync_remains>=20|trinket.2.cooldown.remains-5>=variable.sync_remains&(variable.sync_remains>trinket.1.cooldown.duration%2|trinket.1.cooldown.duration<fight_remains&(variable.sync_remains+trinket.1.cooldown.duration>fight_remains)))|trinket.2.cooldown.ready&variable.sync_remains>20&variable.sync_remains<trinket.2.cooldown.duration%2)))|!trinket.1.has_use_buff&(variable.sync_up&(variable.trinket_1_stronger|trinket.2.cooldown.remains)|!variable.sync_up&(!trinket.2.has_use_buff&(variable.trinket_1_stronger|trinket.2.cooldown.remains)|trinket.2.has_use_buff&(variable.sync_remains>20|trinket.2.cooldown.remains>20)))|target.time_to_die<25&(variable.trinket_1_stronger|trinket.2.cooldown.remains)
-
-actions.trinkets+=/use_items,slots=trinket2,if=trinket.2.has_use_buff&(variable.sync_up&(variable.trinket_2_stronger|trinket.1.cooldown.remains)|!variable.sync_up&(variable.trinket_2_stronger&(variable.sync_remains>trinket.2.cooldown.duration%2|trinket.1.has_use_buff&trinket.1.cooldown.remains>variable.sync_remains-15&trinket.1.cooldown.remains-5<variable.sync_remains&variable.sync_remains+40>fight_remains)|variable.trinket_1_stronger&(trinket.1.cooldown.remains&(trinket.1.cooldown.remains-5<variable.sync_remains&variable.sync_remains>=20|trinket.1.cooldown.remains-5>=variable.sync_remains&(variable.sync_remains>trinket.2.cooldown.duration%2|trinket.2.cooldown.duration<fight_remains&(variable.sync_remains+trinket.2.cooldown.duration>fight_remains)))|trinket.1.cooldown.ready&variable.sync_remains>20&variable.sync_remains<trinket.1.cooldown.duration%2)))|!trinket.2.has_use_buff&(variable.sync_up&(variable.trinket_2_stronger|trinket.1.cooldown.remains)|!variable.sync_up&(!trinket.1.has_use_buff&(variable.trinket_2_stronger|trinket.1.cooldown.remains)|trinket.1.has_use_buff&(variable.sync_remains>20|trinket.1.cooldown.remains>20)))|target.time_to_die<25&(variable.trinket_2_stronger|trinket.1.cooldown.remains)
+# Uses buff effect trinkets with cooldowns and is willing to delay usage up to 1/3 the trinket cooldown if it won't lose a usage in the fight. Fills in downtime with weaker buff effects if they won't also be saved for later cooldowns (happens if it won't delay over 1/3 the trinket cooldown and a stronger trinket won't be up in time) or damage effects if they won't inferfere with any buff effect usage. Intended to be slot-agnostic so that any order of the same trinket pair should result in the same usage.
+actions.trinkets+=/use_item,use_off_gcd=1,slot=trinket1,if=trinket.1.has_use_buff&(variable.sync_ready&(variable.trinket_1_stronger|trinket.2.cooldown.remains)|!variable.sync_ready&(variable.trinket_1_stronger&(variable.sync_remains>trinket.1.cooldown.duration%3&fight_remains>trinket.1.cooldown.duration+20|trinket.2.has_use_buff&trinket.2.cooldown.remains>variable.sync_remains-15&trinket.2.cooldown.remains-5<variable.sync_remains&variable.sync_remains+45>fight_remains)|variable.trinket_2_stronger&(trinket.2.cooldown.remains&(trinket.2.cooldown.remains-5<variable.sync_remains&variable.sync_remains>=20|trinket.2.cooldown.remains-5>=variable.sync_remains&(variable.sync_remains>trinket.1.cooldown.duration%3|trinket.1.cooldown.duration<fight_remains&(variable.sync_remains+trinket.1.cooldown.duration>fight_remains)))|trinket.2.cooldown.ready&variable.sync_remains>20&variable.sync_remains<trinket.2.cooldown.duration%3)))|!trinket.1.has_use_buff&(trinket.1.cast_time=0|!variable.sync_active)&(!trinket.2.has_use_buff&(variable.trinket_1_stronger|trinket.2.cooldown.remains)|trinket.2.has_use_buff&(variable.sync_remains>20|trinket.2.cooldown.remains>20))|fight_remains<25&(variable.trinket_1_stronger|trinket.2.cooldown.remains)
