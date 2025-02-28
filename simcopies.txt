@@ -1,70 +1,93 @@
-############## gear ##############
+############## 11.1 Undermined ##############
 
-# Normal	389/395/398/405
-# Heroic	402/408/411/418
-# Mythic	415/421/424/431
-# M+ 20 		405
-# M+ 20 Vault	421
+# Normal	Champion 636/639/642/645
+# Heroic	Hero     649/652/655/658
+# Mythic	Myth     662/665/668/672
+# M+		Champion 636
+# M+ 10 		 ?
+# M+ 10 Vault	         ?
 
-head=stormwing_harriers_skullmask,id=200390,ilevel=424
-shoulder=stormwing_harriers_pinions,id=200392,ilevel=424
-chest=stormwing_harriers_cuirass,id=200387,ilevel=421
-neck=eye_of_the_vengeful_hurricane,id=195496,ilevel=421
-back=acidproof_webbing,id=195511,ilevel=415
-wrists=surgingsong_conductors,id=195516,ilevel=421
-hands=stormwing_harriers_handguards,id=200389,ilevel=421
-waist=unnatural_dripstone_cinch,id=195507,ilevel=415
-legs=stormwing_harriers_greaves,id=200391,ilevel=415
-feet=daring_chasmleapers,id=195495,ilevel=421
-finger1=seal_of_filial_duty,id=195526,ilevel=431
-finger1=seal_of_diurnas_chosen,id=195480,ilevel=421
+# weapons
 
-main_hand=neltharax_enemy_of_the_sky,id=195527,ilevel=431
-main_hand=searing_blazecaster,id=195490,ilevel=415
-main_hand=awakmani_grimtotems_legacy,id=195483,ilevel=421
+# Ireborne Stormbow
+main_hand=,id=221039
+# Keeza's 'B.' B.B.B.F.G
+main_hand=,id=234492
+# P.A.C.I.F.I.S.T. Mk7
+main_hand=,id=159639
+# "Tiny Pal"
+main_hand=,id=228893,bonus_id=3524
+# Tournament Arc
+main_hand=,id=228900,bonus_id=3524
 
-trinket1=decoration_of_flame,id=194299,ilevel=415
-trinket1=stormeaters_boon,id=194302,ilevel=421
-trinket1=manic_grieftorch,id=194308,ilevel=424
+# equip tinkets
 
-trinket1=whispering_incarnate_icon,id=194301,ilevel=421
-trinket1=controlled_current_technique,id=194305,ilevel=421
-trinket1=spiteful_storm,id=194309,ilevel=424
+# Eye of Kezan
+# trinket1=,id=230198,bonus_id=3524
+#
+# Mister Lock-N-Stalk
+# trinket1=,id=230193,bonus_id=3524
+#
+# Reverb Radio
+# trinket1=,id=230194,bonus_id=3524
 
-trinket1=horn_of_valor,id=133642,ilevel=421
-trinket1=algethar_puzzle_box,id=193701,ilevel=421
+# Ravenous Honey Buzzer
+# trinket1=,id=219298,bonus_id=3524
+#
+# Conductor's Wax Whistle
+# trinket1=,id=219304,bonus_id=3524
+#
+# Remnant of Darkness
+# trinket1=,id=219307,bonus_id=3524
+#
+# Sigil of Algari Concordance
+# trinket1=,id=219295,bonus_id=3524
+#
+# Improvised Seaforium Pacemaker
+# trinket1=,id=232541,bonus_id=3524
+#
+# Azerokk's Resonating Heart
+# trinket1=,id=159612,bonus_id=3524
 
-trinket1=eye_of_skovald,id=133641,ilevel=421
-trinket1=hunger_of_the_pack,id=136975,ilevel=421
-trinket1=windswept_pages,id=144113,ilevel=421
-trinket1=bottle_of_spiraling_winds,id=193697,ilevel=421
-trinket1=ruby_whelp_shell,id=193757,ilevel=421
+# use trinkets
+
+# 20 sec
+
+# Junkmaestro's Mega Magnet (st damage)
+# trinket1=,id=230189,bonus_id=3524
+
+# 1 min
+
+# 1.5 min
+
+# Ravenous Honey Buzzer (split aoe dmg)
+# trinket1=,id=219298,bonus_id=3524
+
+# Charged Stormrook Plume (split aoe dmg)
+# trinket1=,id=219294,bonus_id=3524
+
+# House of Cards (mastery buff)
+# trinket1=,id=230027,bonus_id=3524
+
+# 2 min
+
+# Signet of the Priory (highest secondary buff)
+# trinket1=,id=219308,bonus_id=3524
+
+# K.U.-J.0.'s Flame Vents (split aoe dmg)
+# trinket1=,id=232546,bonus_id=3524
+
+# Geargrinder's Spare Keys (split aoe damage)
+# trinket1=,id=230197,bonus_id=3524
 
 ############ talents ##############
 
 # class
 
-class_talents=/kill_command:0/kill_shot:1
-class_talents+=/improved_kill_shot:1
-class_talents+=/tar_trap:0
-class_talents+=/improved_traps:2
-class_talents+=/high_explosive_trap:0
-class_talents+=/beast_master:0/keen_eyesight:2/master_marksman:2
-class_talents+=/improved_kill_command:0/serrated_shots:2/arctic_bola:1/serpent_sting:1
-class_talents+=/alpha_predator:0/killer_instinct:0/steel_trap:1/stampede:0/death_chakram:1/explosive_shot:0/barrage:0/poison_injection:1/hydras_bite:0
-
+class_talents+=/[talent]:0
 # mm
 
-spec_talents=/aimed_shot:1
-spec_talents+=/crack_shot:1/improved_steady_shot:1/precise_shots:2
-spec_talents+=/rapid_fire:1/lone_wolf:1/chimaera_shot:0
-spec_talents+=/streamline:2/killer_accuracy:0/hunters_knowledge:0/careful_aim:2
-spec_talents+=/surging_shots:1/lethal_shots:0/deathblow:1/target_practice:1/focused_aim:2
-spec_talents+=/multishot:0/razor_fragments:1/double_tap:1/deadeye:0/bursting_shot:0
-spec_talents+=/trick_shots:0/bombardment:0/volley:0/steady_focus:2/serpentstalkers_trickery:1
-spec_talents+=/light_ammo:0/heavy_ammo:0/trueshot:1/lock_and_load:1/bullseye:2
-spec_talents+=/bulletstorm:0/sharpshooter:0/eagletalons_true_focus:2/wailing_arrow:0/legacy_of_the_windrunners:2
-spec_talents+=/salvo:0/calling_the_shots:0/unerring_vision:1/readiness:0/windrunners_barrage:0/windrunners_guidance:0
+spec_talents+=/[talent]:0
 
 ############ gems #################
 
@@ -188,16 +211,16 @@ race=mechagnome
 ############ tier ##############
 
 copy=0pc
-set_bonus=tier29_2pc=0
-set_bonus=tier29_4pc=0
+set_bonus=thewarwithin_season_2_2pc=0
+set_bonus=thewarwithin_season_2_4pc=0
 
 copy=2pc
-set_bonus=tier29_2pc=1
-set_bonus=tier29_4pc=0
+set_bonus=thewarwithin_season_2_2pc=1
+set_bonus=thewarwithin_season_2_4pc=0
 
 copy=4pc
-set_bonus=tier29_2pc=1
-set_bonus=tier29_4pc=1
+set_bonus=thewarwithin_season_2_2pc=1
+set_bonus=thewarwithin_season_2_4pc=1
 
 ############ power infusion #########
 
@@ -207,3 +230,31 @@ external_buffs.pool=power_infusion:120
 
 override.spell_data=effect.########.ap_coefficient=#######
 override.player.spell_data=effect.#######.ap_coefficient=#######
+
+############# pet apl ###############
+
+below a player profile in sim you can specify a pet profile starting with pet=duck (the duck part can be changed with "pet=[name]" but another option "summon_pet=[name]" will have to specify the new name since duck is the default)
+then below that a new apl for the pet can exist where actions+=/claw,if=[conditions] will overwrite the default autocast apl, you can refer to owner conditions by referencing "owner"
+
+pet=[name]
+actions=/auto_attack
+actions+=/snapshot_stats
+actions+=/bite,if=owner.variable.a_variable
+
+############ misc ##################
+
+enable_all_talents=1
+load_default_gear=1
+load_default_talents=1
+
+hunter=bm
+spec=beast_mastery
+load_default_gear=1
+
+hunter=mm
+spec=marksmanship
+load_default_gear=1
+
+hunter=sv
+spec=survival
+load_default_gear=1
