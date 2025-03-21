@@ -228,8 +228,9 @@ external_buffs.pool=power_infusion:120
 
 ############ overrides ##############
 
-override.spell_data=effect.########.ap_coefficient=#######
-override.player.spell_data=effect.#######.ap_coefficient=#######
+override.spell_data=<spell|effect|power>.<id>.<field>=value
+override.spell_data=effect.########.[label]=#######
+override.player.spell_data=effect.#######.[label]=#######
 
 ############# pet apl ###############
 
