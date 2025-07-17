@@ -259,3 +259,16 @@ load_default_gear=1
 hunter=sv
 spec=survival
 load_default_gear=1
+
+
+# Worn Shortbow (1)
+main_hand=,id=2504
+
+# Worn Spear (1)
+main_hand=,id=57243
+
+potion=disabled
+flask=disabled
+food=disabled
+augmentation=disabled
+temporary_enchant=disabled
